@@ -3,7 +3,144 @@
 % ==========================================
 \chapter{DESAIN KONSEP SOLUSI}
 \label{chap:desain-konsep-solusi}
-Ilustrasikan desain konsep solusi dalam bentuk model konseptual dan penjelasan secara ringkas, 
-beserta perbedaannya dengan sistem saat ini. Ilustrasi harus dapat dibandingkan (\textit{before} and \textit{after}). 
-Karena masih berupa proposal, bab ini hanya berisi gambar desain konsep solusi tersebut dan 
-penjelasan perbandingannya dengan gambar sistem yang ada saat ini (yang tergambar di awal Bab \ref{chap:analisis-masalah}).
+
+\section{Desain Konsep Solusi}
+
+Setelah mengidentifikasi kebutuhan sistem pada bab sebelumnya, tahap berikutnya adalah merancang solusi yang akan dikembangkan. Bagian ini menyajikan desain konsep solusi berupa model konseptual, perbandingan dengan sistem saat ini, arsitektur sistem, serta desain antarmuka yang diusulkan.
+
+Proses perancangan sistem MBG \textit{Monitoring} mengikuti metodologi \textit{structured design} yang terdiri dari beberapa fase iteratif. Setiap fase menghasilkan rangkaian desain yang akan menjadi dasar untuk fase berikutnya. Bagian ini menjelaskan tahapan-tahapan tersebut secara sistematis.
+
+\subsection{Model Konseptual Sistem Saat Ini}
+
+Sistem Program Makan Bergizi Gratis (MBG) di SMA saat ini mengikuti alur operasional yang masih bersifat manual dan belum terintegrasi. Model konseptual sistem tersebut ditunjukkan pada Gambar~\ref{fig:bab4-model-saat-ini}.
+
+Alur operasional sistem saat ini memiliki beberapa kendala utama sebagai berikut.
+\begin{enumerate}[a.]
+  \item Data tidak terintegrasi.
+  \item \textit{Feedback} tidak terdokumentasi.
+  \item Analisis dilakukan secara manual dan memakan waktu.
+  \item Sulit melacak tren permasalahan secara konsisten.
+\end{enumerate}
+
+\begin{figure}[h]
+  \centering
+  \captionsetup{justification=centering}
+  \includegraphics[width=0.5\textwidth]{image/bab4-model-saat-ini}
+  \caption{Model konseptual sistem MBG saat ini}
+  \label{fig:bab4-model-saat-ini}
+\end{figure}
+
+\FloatBarrier
+
+\subsection{Model Konseptual Sistem Usulan}
+
+Sistem MBG \textit{Monitoring} yang diusulkan mengintegrasikan teknologi informasi untuk mengotomatisasi proses pencatatan, \textit{feedback management}, dan analisis sentimen. Model konseptual sistem usulan ditunjukkan pada Gambar~\ref{fig:bab4-model-usulan}.
+
+Alur operasional sistem usulan ini memiliki beberapa kelebihan sebagai berikut.
+\begin{enumerate}[a.]
+  \item Data terintegrasi dan dapat diakses secara \textit{real-time}.
+  \item \textit{Feedback} dapat dianalisis secara otomatis.
+  \item Tren dan pola keluhan lebih mudah diidentifikasi.
+  \item Pengambilan keputusan dapat dilakukan secara lebih objektif dan berbasis data.
+\end{enumerate}
+
+\begin{figure}[h]
+  \centering
+  \captionsetup{justification=centering}
+  \includegraphics[width=0.4\textwidth]{image/bab4-model-usulan}
+  \caption{Model konseptual sistem MBG usulan}
+  \label{fig:bab4-model-usulan}
+\end{figure}
+
+\FloatBarrier
+
+\section{Perbandingan Sistem Saat Ini dan Sistem Usulan}
+
+\subsection{Perbandingan Fitur dan Fungsionalitas}
+
+Setelah menganalisis model konseptual antara sistem yang sudah ada dengan sistem usulan, dilakukan perbandingan fitur dan fungsionalitas utama. Ringkasan perbandingan antara sistem saat ini (manual) dan sistem usulan yang terintegrasi disajikan pada Tabel~\ref{tab:bab4-perbandingan-sistem}.
+
+\input{table/perbandingan-sistem.tex}
+
+\FloatBarrier
+
+\subsection{Perbandingan Alur Proses \textit{Feedback}}
+
+Dalam sistem usulan, proses pelaporan dan penanganan \textit{feedback} dapat dilakukan secara langsung oleh siswa dan guru melalui sistem, kemudian diproses secara otomatis oleh komponen AI untuk pengkategorisasian dan analisis sentimen. Hasil analisis dapat dipantau secara \textit{real-time} oleh operator dapur.
+
+Perbandingan alur pelaporan program antara sistem saat ini dan sistem usulan ditunjukkan pada Gambar~\ref{fig:bab4-alur-feedback-saat-ini} dan Gambar~\ref{fig:bab4-alur-feedback-usulan}.
+
+\begin{figure}[h]
+  \centering
+  \captionsetup{justification=centering}
+  \includegraphics[width=0.7\textwidth]{image/bab4-alur-feedback-saat-ini}
+  \caption{Alur pelaporan program pada sistem saat ini}
+  \label{fig:bab4-alur-feedback-saat-ini}
+\end{figure}
+
+\FloatBarrier
+
+\begin{figure}[h]
+  \centering
+  \captionsetup{justification=centering}
+  \includegraphics[width=0.7\textwidth]{image/bab4-alur-feedback-usulan}
+  \caption{Alur pelaporan program pada sistem usulan}
+  \label{fig:bab4-alur-feedback-usulan}
+\end{figure}
+
+\FloatBarrier
+
+\section{Use Case Sistem Usulan}
+
+\subsection{Analisis \textit{Use Case}}
+
+Analisis \textit{use case} dilakukan untuk memahami interaksi antara pengguna dan sistem, serta mengidentifikasi fungsi-fungsi utama yang harus disediakan. Diagram \textit{use case} mengilustrasikan aktor yang terlibat serta fungsionalitas yang dapat mereka akses. Perancangan hubungan antara fungsionalitas ini akan memudahkan proses perancangan antarmuka, alur proses, serta prioritas implementasi.
+
+Berdasarkan analisis kebutuhan fungsional pada Bab~\ref{chap:analisis-masalah}, dapat diidentifikasi aktor-aktor berikut yang akan berinteraksi dengan sistem.
+\begin{enumerate}
+  \item Siswa, sebagai aktor utama penerima manfaat program yang mengisi presensi konsumsi, memberikan \textit{feedback} dan \textit{rating} makanan, serta mengakses informasi menu dan tindak lanjut keluhan.
+  \item Guru pembina, sebagai aktor yang memantau presensi konsumsi siswa, mengirim observasi atau keluhan tambahan, serta memanfaatkan \textit{dashboard} dan laporan untuk evaluasi program di tingkat kelas atau sekolah.
+  \item Operator dapur, sebagai aktor yang mengelola data menu dan distribusi makanan, memonitor \textit{feedback} dan \textit{rating} dari siswa dan guru, serta menggunakan ringkasan analitik untuk memperbaiki kualitas layanan.
+\end{enumerate}
+
+Berdasarkan ketiga aktor tersebut dan tujuh belas kebutuhan fungsional yang telah ditetapkan, disusun daftar \textit{use case} sistem seperti ditunjukkan pada Tabel~\ref{tab:bab4-usecase-sistem}.
+
+\input{table/usecase-sistem.tex}
+
+\FloatBarrier
+
+\subsection{\textit{Use Case} Diagram}
+
+Susunan \textit{use case} yang dikembangkan dalam sistem pemantauan Program Makan Bergizi Gratis digambarkan melalui \textit{use case} diagram pada Gambar~\ref{fig:bab4-usecase-diagram}.
+
+\begin{figure}[h]
+  \centering
+  \captionsetup{justification=centering}
+  \includegraphics[width=0.7\textwidth]{image/bab4-usecase-diagram}
+  \caption{\textit{Use case} diagram sistem MBG \textit{Monitoring} usulan}
+  \label{fig:bab4-usecase-diagram}
+\end{figure}
+
+\FloatBarrier
+
+Diagram pada Gambar~\ref{fig:bab4-usecase-diagram} menggambarkan interaksi antara tiga aktor utama, yaitu siswa, guru pembina, dan operator dapur. Siswa berperan sebagai penerima manfaat program yang mengisi presensi konsumsi, memberikan \textit{feedback} dan \textit{rating} terhadap makanan, serta mengakses informasi menu dan riwayat tindak lanjut keluhan. Guru pembina menggunakan sistem untuk memantau presensi konsumsi, mengirim observasi tambahan, serta melihat ringkasan data melalui \textit{dashboard} dan laporan evaluasi. Sementara itu, operator dapur memanfaatkan sistem untuk mengelola menu dan distribusi makanan, meninjau serta menindaklanjuti \textit{feedback}, dan menggunakan ringkasan analitik sebagai dasar perbaikan kualitas layanan.
+
+Selain menggambarkan hubungan antara aktor dan fungsi, \textit{use case} diagram juga menunjukkan dependensi antarfungsi melalui relasi \textit{extend}. Pemberian \textit{feedback} dan \textit{rating} makanan memperluas skenario pengisian presensi konsumsi karena umumnya dilakukan setelah siswa menyatakan telah menerima dan mengonsumsi makanan. Hubungan ini membantu dalam menyusun prioritas dan alur implementasi fitur pada sistem.
+
+\section{Bisnis Proses}
+
+Model proses bisnis disusun menggunakan notasi \textit{Business Process Model and Notation} (BPMN) untuk menggambarkan alur operasional harian Program Makan Bergizi Gratis (MBG) yang didukung oleh sistem \textit{monitoring} yang dirancang. BPMN digunakan untuk memperlihatkan interaksi antara tiga aktor utama, yaitu operator dapur, guru pembina, dan siswa. Model ini menggambarkan interaksi antaraktor melalui sistem dalam siklus perencanaan menu, distribusi makanan, konsumsi, pengisian presensi, pemberian \textit{feedback} dan \textit{rating}, hingga evaluasi kualitas program.
+
+Diagram BPMN yang diusulkan dibangun dalam satu \textit{pool} ``Proses Monitoring MBG'' yang terdiri atas beberapa \textit{swimlane} untuk setiap aktor dan komponen sistem pendukung. Dengan cara ini, peran dan tanggung jawab masing-masing aktor terlihat secara jelas, sekaligus menunjukkan titik-titik integrasi yang difasilitasi oleh sistem \textit{monitoring} berbasis web. Diagram proses bisnis sistem usulan ditunjukkan pada Gambar~\ref{fig:bab4-bpmn}.
+
+\begin{figure}[h]
+  \centering
+  \captionsetup{justification=centering}
+  \includegraphics[width=0.7\textwidth]{image/bab4-bpmn-monitoring}
+  \caption{Proses bisnis sistem MBG \textit{Monitoring} usulan}
+  \label{fig:bab4-bpmn}
+\end{figure}
+
+\FloatBarrier
+
+Gambar~\ref{fig:bab4-bpmn} menggambarkan alur proses harian pada sistem MBG \textit{Monitoring} yang melibatkan operator dapur, siswa, dan guru pembina. Operator dapur memublikasikan menu serta jadwal distribusi dan memperbarui \textit{dashboard} distribusi harian. Siswa kemudian menerima dan mengonsumsi makanan, mengisi presensi konsumsi di sistem, dan secara opsional memberikan komentar atau \textit{feedback} serta \textit{rating} terhadap makanan. Data presensi, \textit{feedback}, dan \textit{rating} yang terkumpul dimanfaatkan guru pembina untuk melihat statistik presensi konsumsi siswa, mengakses \textit{dashboard} distribusi, sentimen, dan \textit{rating}, lalu menentukan tindakan perbaikan yang perlu dilakukan terhadap pelaksanaan program MBG.

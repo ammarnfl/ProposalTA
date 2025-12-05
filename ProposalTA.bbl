@@ -94,43 +94,6 @@
       \field{title}{Pedoman Pelaksanaan Program Makan Bergizi Sekolah Dasar}
       \field{year}{2023}
     \endentry
-    \entry{putra2022monitoring}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=09146062045959b6b076d82aa07cbf43}{%
-           family={Putra},
-           familyi={P\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1762399132825acf3086cd341a45a12c}{%
-           family={Sari},
-           familyi={S\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{fa75f0e9fb9e2e285036921c0d153627}
-      \strng{fullhash}{fa75f0e9fb9e2e285036921c0d153627}
-      \strng{fullhashraw}{fa75f0e9fb9e2e285036921c0d153627}
-      \strng{bibnamehash}{fa75f0e9fb9e2e285036921c0d153627}
-      \strng{authorbibnamehash}{fa75f0e9fb9e2e285036921c0d153627}
-      \strng{authornamehash}{fa75f0e9fb9e2e285036921c0d153627}
-      \strng{authorfullhash}{fa75f0e9fb9e2e285036921c0d153627}
-      \strng{authorfullhashraw}{fa75f0e9fb9e2e285036921c0d153627}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{author}
-      \field{journaltitle}{Jurnal Teknologi Pendidikan Indonesia}
-      \field{number}{2}
-      \field{title}{Pengembangan Sistem Monitoring Gizi Siswa Berbasis Mobile di Sekolah Dasar}
-      \field{volume}{10}
-      \field{year}{2022}
-      \field{pages}{88\bibrangedash 96}
-      \range{pages}{9}
-    \endentry
     \entry{rahmawati2021decisiontree}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=081b09ef76813245c8966d18fa21d6ed}{%
@@ -173,37 +136,6 @@
       \field{year}{2021}
       \field{pages}{122\bibrangedash 131}
       \range{pages}{10}
-    \endentry
-    \entry{santoso2020iot}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=b79df136ac90bf0adf9bdf0085e08d64}{%
-           family={Santoso},
-           familyi={S\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{b79df136ac90bf0adf9bdf0085e08d64}
-      \strng{fullhash}{b79df136ac90bf0adf9bdf0085e08d64}
-      \strng{fullhashraw}{b79df136ac90bf0adf9bdf0085e08d64}
-      \strng{bibnamehash}{b79df136ac90bf0adf9bdf0085e08d64}
-      \strng{authorbibnamehash}{b79df136ac90bf0adf9bdf0085e08d64}
-      \strng{authornamehash}{b79df136ac90bf0adf9bdf0085e08d64}
-      \strng{authorfullhash}{b79df136ac90bf0adf9bdf0085e08d64}
-      \strng{authorfullhashraw}{b79df136ac90bf0adf9bdf0085e08d64}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{author}
-      \field{journaltitle}{Jurnal Rekayasa dan Teknologi Informasi}
-      \field{number}{4}
-      \field{title}{Sistem Evaluasi Kualitas Makanan Sekolah Berbasis {IoT}}
-      \field{volume}{5}
-      \field{year}{2020}
-      \field{pages}{233\bibrangedash 240}
-      \range{pages}{8}
     \endentry
     \entry{wicaksono2025implementasi}{article}{}{}
       \name{author}{1}{}{%
@@ -280,6 +212,8 @@
       \range{pages}{13}
     \endentry
   \enddatalist
+  \missing{putra2022monitoring}
+  \missing{santoso2020iot}
 \endrefsection
 \endinput
 

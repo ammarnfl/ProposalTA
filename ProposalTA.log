@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.11.19)  5 DEC 2025 18:55
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.11.19)  5 DEC 2025 20:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1261,7 +1261,22 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'ProposalTA.bbl' found.
- (ProposalTA.bbl)
+ (ProposalTA.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                putra2022monitoring
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                santoso2020iot
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 201.
 Package biblatex Info: Reference segment=0 on input line 201.
 File: image/ganesha.jpg Graphic file (type bmp)
@@ -1369,7 +1384,32 @@ Bab I.
 Bab II.
 [6
 
-] [7] [8]) (Bab III - Analisis-Masalah.tex [9]
+] [7]
+
+LaTeX Warning: Citation 'putra2022monitoring' on page 8 undefined on input line
+ 49.
+
+
+LaTeX Warning: Citation '' on page 8 undefined on input line 49.
+
+
+Overfull \hbox (0.97195pt too wide) in paragraph at lines 49--50
+[][][] \TU/TimesNewRoman(0)/m/n/12 mengembangkan sistem \TU/TimesNewRoman(0)/m/
+it/12 monitoring
+ []
+
+
+LaTeX Warning: Citation 'santoso2020iot' on page 8 undefined on input line 51.
+
+
+LaTeX Warning: Citation '' on page 8 undefined on input line 51.
+
+
+Overfull \hbox (0.25516pt too wide) in paragraph at lines 51--52
+[][][] \TU/TimesNewRoman(0)/m/n/12 merancang sistem evaluasi kualitas makan-
+ []
+
+[8]) (Bab III - Analisis-Masalah.tex [9]
 Bab III.
 [10
 
@@ -1575,11 +1615,264 @@ r
 [18] (table/perbandingan-solusi.tex) [19]) (Bab IV - Desain-Konsep-Solusi.tex
 [20]
 Bab IV.
-) (Bab V - Rencana-Selanjutnya.tex [21
+File: image/bab4-model-saat-ini.png Graphic file (type bmp)
+<image/bab4-model-saat-ini.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[21
 
 ]
+File: image/bab4-model-usulan.png Graphic file (type bmp)
+<image/bab4-model-usulan.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[22] (table/perbandingan-sistem.tex
+Overfull \hbox (4.13216pt too wide) in alignment at lines 1--7
+ [] [] [] 
+ []
+
+
+Overfull \hbox (4.13216pt too wide) in alignment at lines 7--13
+ [] [] [] 
+ []
+
+
+Overfull \hbox (4.13216pt too wide) in alignment at lines 13--17
+ [] [] [] 
+ []
+
+
+Overfull \hbox (4.13216pt too wide) in alignment at lines 17--20
+ [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
+[]|\TU/TimesNewRoman(0)/m/n/12 Pencatatan
+ []
+
+
+Underfull \hbox (badness 1168) in paragraph at lines 23--23
+[]|\TU/TimesNewRoman(0)/m/n/12 Tidak ada pencatatan distri-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
+[]|\TU/TimesNewRoman(0)/m/n/12 Presensi kon-
+ []
+
+
+Underfull \hbox (badness 2495) in paragraph at lines 28--29
+[]|\TU/TimesNewRoman(0)/m/n/12 Presensi terintegrasi dengan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+\TU/TimesNewRoman(0)/m/n/12 sistem sehingga partisipasi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+[]|\TU/TimesNewRoman(0)/m/n/12 Pengumpulan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
+[]|\TU/TimesNewRoman(0)/m/n/12 Analisis \TU/TimesNewRoman(0)/m/it/12 fee-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+[]|\TU/TimesNewRoman(0)/m/n/12 Dilakukan secara periodik
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/12 dan informal, bergantung
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
+[]|\TU/TimesNewRoman(0)/m/n/12 Dilakukan secara \TU/TimesNewRoman(0)/m/it/12 re
+al-time
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
+\TU/TimesNewRoman(0)/m/n/12 melalui \TU/TimesNewRoman(0)/m/it/12 dashboard \TU/
+TimesNewRoman(0)/m/n/12 yang
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
+[]|\TU/TimesNewRoman(0)/m/n/12 Transparansi
+ []
+
+
+Underfull \hbox (badness 1478) in paragraph at lines 48--49
+\TU/TimesNewRoman(0)/m/n/12 status \TU/TimesNewRoman(0)/m/it/12 feedback \TU/Ti
+mesNewRoman(0)/m/n/12 secara \TU/TimesNewRoman(0)/m/it/12 real-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
+[]|\TU/TimesNewRoman(0)/m/n/12 Pengambilan
+ []
+
+
+Underfull \hbox (badness 2460) in paragraph at lines 51--51
+[]|\TU/TimesNewRoman(0)/m/n/12 Berbasis intuisi dan penga-
+ []
+
+
+Overfull \hbox (4.13216pt too wide) in alignment at lines 20--55
+ [] [] [] 
+ []
+
+ignored error: Infinite glue shrinkage found in box being split [23])
+File: image/bab4-alur-feedback-saat-ini.png Graphic file (type bmp)
+<image/bab4-alur-feedback-saat-ini.png>
+File: image/bab4-alur-feedback-usulan.png Graphic file (type bmp)
+<image/bab4-alur-feedback-usulan.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[24] (table/usecase-sistem.tex
+Overfull \hbox (4.13217pt too wide) in alignment at lines 2--8
+ [] [] [] 
+ []
+
+
+Overfull \hbox (4.13217pt too wide) in alignment at lines 8--14
+ [] [] [] 
+ []
+
+
+Overfull \hbox (4.13217pt too wide) in alignment at lines 14--18
+ [] [] [] 
+ []
+
+
+Overfull \hbox (4.13217pt too wide) in alignment at lines 18--21
+ [] [] [] 
+ []
+
+
+Underfull \hbox (badness 1622) in paragraph at lines 24--25
+\TU/TimesNewRoman(0)/m/n/12 dalam sistem, memverifikasi kredensial, dan
+ []
+
+
+Underfull \hbox (badness 2050) in paragraph at lines 27--28
+[]|\TU/TimesNewRoman(0)/m/n/12 Operator dapur menginput dan memperbarui
+ []
+
+
+Underfull \hbox (badness 1629) in paragraph at lines 29--29
+[]|\TU/TimesNewRoman(0)/m/n/12 Mencatat dan mem-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+\TU/TimesNewRoman(0)/m/n/12 perbarui distribusi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
+[]|\TU/TimesNewRoman(0)/m/n/12 Melihat informasi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
+\TU/TimesNewRoman(0)/m/n/12 menu dan jadwal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+[]|\TU/TimesNewRoman(0)/m/n/12 Mengisi presensi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+[]|\TU/TimesNewRoman(0)/m/n/12 Memverifikasi dan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+\TU/TimesNewRoman(0)/m/n/12 melihat statistik
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+[]|\TU/TimesNewRoman(0)/m/n/12 Memberikan \TU/TimesNewRoman(0)/m/it/12 fee-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+\TU/TimesNewRoman(0)/m/it/12 dback \TU/TimesNewRoman(0)/m/n/12 dan \TU/TimesNew
+Roman(0)/m/it/12 rating
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
+[]|\TU/TimesNewRoman(0)/m/n/12 Mengirim observasi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
+[]|\TU/TimesNewRoman(0)/m/n/12 Mengelola \TU/TimesNewRoman(0)/m/it/12 feedback
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
+[]|\TU/TimesNewRoman(0)/m/n/12 Melihat \TU/TimesNewRoman(0)/m/it/12 dashboard
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
+[]|\TU/TimesNewRoman(0)/m/n/12 Melihat \TU/TimesNewRoman(0)/m/it/12 dashboard
+ []
+
+
+Underfull \hbox (badness 2142) in paragraph at lines 59--59
+[]|\TU/TimesNewRoman(0)/m/n/12 Menghasilkan lapor-
+ []
+
+
+Overfull \hbox (4.13217pt too wide) in alignment at lines 21--62
+ [] [] [] 
+ []
+
+ignored error: Infinite glue shrinkage found in box being split [25]
+ignored error: Infinite glue shrinkage found in box being split [26])
+File: image/bab4-usecase-diagram.png Graphic file (type bmp)
+<image/bab4-usecase-diagram.png>
+ [27]
+Overfull \hbox (7.14774pt too wide) in paragraph at lines 128--129
+\TU/TimesNewRoman(0)/m/n/12 dan \TU/TimesNewRoman(0)/m/it/12 rating \TU/TimesNe
+wRoman(0)/m/n/12 makanan memperluas skenario pengisian presensi konsumsi karena
+ umum-
+ []
+
+
+Overfull \hbox (6.52174pt too wide) in paragraph at lines 134--135
+[]\TU/TimesNewRoman(0)/m/n/12 Diagram BPMN yang diusulkan dibangun dalam satu \
+TU/TimesNewRoman(0)/m/it/12 pool \TU/TimesNewRoman(0)/m/n/12 “Proses Monitoring
+ MBG”
+ []
+
+File: image/bab4-bpmn-monitoring.png Graphic file (type bmp)
+<image/bab4-bpmn-monitoring.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[28]) (Bab V - Rencana-Selanjutnya.tex [29]
 Bab V.
-) [22
+) [30
 
 ]
 Overfull \hbox (8.46436pt too wide) in paragraph at lines 401--401
@@ -1591,7 +1884,7 @@ s Android untuk Monitoring Perkem-
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 381.
 See the caption package documentation for explanation.
 
-[23
+[31
 
 
 ] (ProposalTA.aux)
@@ -1599,19 +1892,27 @@ See the caption package documentation for explanation.
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-10-24>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `ProposalTA.out' has not changed.
-(rerunfilecheck)             Checksum: 60082EF69AC129AFB1A195333764B127;5365.
+(rerunfilecheck)             Checksum: 319BF661A7F3DD11FA0EBD8515EBE00C;7374.
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'ProposalTA.run.xml'.
 \openout1 = `ProposalTA.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31310 strings out of 402987
- 614792 string characters out of 5448730
- 1992250 words of memory out of 5000000
- 59684 multiletter control sequences out of 15000+600000
+ 31443 strings out of 402987
+ 619202 string characters out of 5448730
+ 1994996 words of memory out of 5000000
+ 59805 multiletter control sequences out of 15000+600000
  632918 words of font info for 83 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  73i,10n,93p,1201b,6740s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on ProposalTA.pdf (30 pages).
+Output written on ProposalTA.pdf (38 pages).

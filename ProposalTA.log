@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.11.19)  5 DEC 2025 11:18
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.11.19)  5 DEC 2025 14:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1072,7 +1072,12 @@ Package csquotes Warning: No style for language 'indonesian'.
 (csquotes)                Using fallback style on input line 201.
 
 Package csquotes Info: Redefining alias 'default' -> 'fallback'.
-(ProposalTA.aux)
+(ProposalTA.aux
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel-
+english.tex)
+Package babel Info: Importing data for english
+(babel)             from babel-en.ini. Reported on input line 34.
+)
 \openout1 = `ProposalTA.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 201.
@@ -1239,6 +1244,12 @@ Package biblatex Info: ... file 'indonesian.lbx' not found.
 Package biblatex Warning: Language 'indonesian' not supported.
 (biblatex)                Using dummy definitions on input line 201.
 
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lbx
+File: english.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+)
 Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
@@ -1246,12 +1257,28 @@ Package biblatex Info: Automatic encoding selection.
 \openout3 = `ProposalTA.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'ProposalTA.bbl' not found.
-No file ProposalTA.bbl.
+Package biblatex Info: ... file 'ProposalTA.bbl' found.
+ (ProposalTA.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                laudon2020
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                pressman2019
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 201.
 Package biblatex Info: Reference segment=0 on input line 201.
 File: image/ganesha.jpg Graphic file (type bmp)
 <image/ganesha.jpg>
+
 
 Package datetime2 Warning: Region `bahasai' has ignored 
 (datetime2)                the following settings:
@@ -1376,8 +1403,10 @@ Bab V.
 ) [14
 
 ]
-
-LaTeX Warning: Empty bibliography on input line 401.
+Overfull \hbox (8.46436pt too wide) in paragraph at lines 401--401
+[][]\TU/TimesNewRoman(0)/m/n/12 Wicaksono. 2025. “  Implementasi Sistem Berbasi
+s Android untuk Monitoring Perkem-
+ []
 
 
 Package caption Warning: Unused \captionsetup[figure] on input line 378.
@@ -1391,33 +1420,27 @@ See the caption package documentation for explanation.
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 381.
 See the caption package documentation for explanation.
 
-(ProposalTA.aux)
+[15
+
+
+] (ProposalTA.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-10-24>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `ProposalTA.out' has not changed.
 (rerunfilecheck)             Checksum: 60082EF69AC129AFB1A195333764B127;5365.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                ProposalTA
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'ProposalTA.run.xml'.
 \openout1 = `ProposalTA.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29690 strings out of 402987
- 581032 string characters out of 5448730
- 1949464 words of memory out of 5000000
- 58089 multiletter control sequences out of 15000+600000
+ 31229 strings out of 402987
+ 612473 string characters out of 5448730
+ 1975758 words of memory out of 5000000
+ 59618 multiletter control sequences out of 15000+600000
  632918 words of font info for 83 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 73i,5n,93p,1201b,1798s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 73i,5n,93p,1201b,6740s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on ProposalTA.pdf (21 pages).
+Output written on ProposalTA.pdf (22 pages).

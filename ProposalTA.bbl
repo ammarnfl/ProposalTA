@@ -1,0 +1,287 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{cms/global//global/global/global}
+    \entry{delone2003model}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=156d2f8c6d5940f7c153038df1e3cdd8}{%
+           family={DeLone},
+           familyi={D\bibinitperiod},
+           given={William\bibnamedelima H.},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=080c328b971c5d1e88a5515519f06bb2}{%
+           family={McLean},
+           familyi={M\bibinitperiod},
+           given={Ephraim\bibnamedelima R.},
+           giveni={E\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{931395b6fa2060343187d2644441ff4b}
+      \strng{fullhash}{931395b6fa2060343187d2644441ff4b}
+      \strng{fullhashraw}{931395b6fa2060343187d2644441ff4b}
+      \strng{bibnamehash}{931395b6fa2060343187d2644441ff4b}
+      \strng{authorbibnamehash}{931395b6fa2060343187d2644441ff4b}
+      \strng{authornamehash}{931395b6fa2060343187d2644441ff4b}
+      \strng{authorfullhash}{931395b6fa2060343187d2644441ff4b}
+      \strng{authorfullhashraw}{931395b6fa2060343187d2644441ff4b}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Journal of Management Information Systems}
+      \field{number}{4}
+      \field{title}{The DeLone and McLean Model of Information Systems Success: A Ten-Year Update}
+      \field{volume}{19}
+      \field{year}{2003}
+      \field{pages}{9\bibrangedash 30}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1080/07421222.2003.11045748
+      \endverb
+    \endentry
+    \entry{kemdikbud2023pedomanmbg}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d6c212fb16079c459bd35776e8d5d70b}{%
+           family={Kebudayaan},
+           familyi={K\bibinitperiod},
+           given={Kementerian\bibnamedelima Pendidikan},
+           giveni={K\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0,
+           prefix={dan},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+      }
+      \list{location}{1}{%
+        {Jakarta}%
+      }
+      \list{publisher}{1}{%
+        {Kementerian Pendidikan dan Kebudayaan}%
+      }
+      \strng{namehash}{d6c212fb16079c459bd35776e8d5d70b}
+      \strng{fullhash}{d6c212fb16079c459bd35776e8d5d70b}
+      \strng{fullhashraw}{d6c212fb16079c459bd35776e8d5d70b}
+      \strng{bibnamehash}{d6c212fb16079c459bd35776e8d5d70b}
+      \strng{authorbibnamehash}{d6c212fb16079c459bd35776e8d5d70b}
+      \strng{authornamehash}{d6c212fb16079c459bd35776e8d5d70b}
+      \strng{authorfullhash}{d6c212fb16079c459bd35776e8d5d70b}
+      \strng{authorfullhashraw}{d6c212fb16079c459bd35776e8d5d70b}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Pedoman Pelaksanaan Program Makan Bergizi Sekolah Dasar}
+      \field{year}{2023}
+    \endentry
+    \entry{putra2022monitoring}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=09146062045959b6b076d82aa07cbf43}{%
+           family={Putra},
+           familyi={P\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1762399132825acf3086cd341a45a12c}{%
+           family={Sari},
+           familyi={S\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fa75f0e9fb9e2e285036921c0d153627}
+      \strng{fullhash}{fa75f0e9fb9e2e285036921c0d153627}
+      \strng{fullhashraw}{fa75f0e9fb9e2e285036921c0d153627}
+      \strng{bibnamehash}{fa75f0e9fb9e2e285036921c0d153627}
+      \strng{authorbibnamehash}{fa75f0e9fb9e2e285036921c0d153627}
+      \strng{authornamehash}{fa75f0e9fb9e2e285036921c0d153627}
+      \strng{authorfullhash}{fa75f0e9fb9e2e285036921c0d153627}
+      \strng{authorfullhashraw}{fa75f0e9fb9e2e285036921c0d153627}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Jurnal Teknologi Pendidikan Indonesia}
+      \field{number}{2}
+      \field{title}{Pengembangan Sistem Monitoring Gizi Siswa Berbasis Mobile di Sekolah Dasar}
+      \field{volume}{10}
+      \field{year}{2022}
+      \field{pages}{88\bibrangedash 96}
+      \range{pages}{9}
+    \endentry
+    \entry{rahmawati2021decisiontree}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=081b09ef76813245c8966d18fa21d6ed}{%
+           family={Rahmawati},
+           familyi={R\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f686e31ab083815d10f76738ac3e23e3}{%
+           family={Hidayat},
+           familyi={H\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a2d17b6927bdcdaa9039e1fe81fe4318}{%
+           family={Kusuma},
+           familyi={K\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1151bd5b70b94917bd46ddc2289c7cec}
+      \strng{fullhash}{1151bd5b70b94917bd46ddc2289c7cec}
+      \strng{fullhashraw}{1151bd5b70b94917bd46ddc2289c7cec}
+      \strng{bibnamehash}{1151bd5b70b94917bd46ddc2289c7cec}
+      \strng{authorbibnamehash}{1151bd5b70b94917bd46ddc2289c7cec}
+      \strng{authornamehash}{1151bd5b70b94917bd46ddc2289c7cec}
+      \strng{authorfullhash}{1151bd5b70b94917bd46ddc2289c7cec}
+      \strng{authorfullhashraw}{1151bd5b70b94917bd46ddc2289c7cec}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Jurnal Ilmu Komputer dan Aplikasi}
+      \field{number}{3}
+      \field{title}{Implementasi {Decision Tree} untuk Deteksi Dini Kasus Gizi Buruk pada Anak Sekolah}
+      \field{volume}{9}
+      \field{year}{2021}
+      \field{pages}{122\bibrangedash 131}
+      \range{pages}{10}
+    \endentry
+    \entry{santoso2020iot}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b79df136ac90bf0adf9bdf0085e08d64}{%
+           family={Santoso},
+           familyi={S\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b79df136ac90bf0adf9bdf0085e08d64}
+      \strng{fullhash}{b79df136ac90bf0adf9bdf0085e08d64}
+      \strng{fullhashraw}{b79df136ac90bf0adf9bdf0085e08d64}
+      \strng{bibnamehash}{b79df136ac90bf0adf9bdf0085e08d64}
+      \strng{authorbibnamehash}{b79df136ac90bf0adf9bdf0085e08d64}
+      \strng{authornamehash}{b79df136ac90bf0adf9bdf0085e08d64}
+      \strng{authorfullhash}{b79df136ac90bf0adf9bdf0085e08d64}
+      \strng{authorfullhashraw}{b79df136ac90bf0adf9bdf0085e08d64}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Jurnal Rekayasa dan Teknologi Informasi}
+      \field{number}{4}
+      \field{title}{Sistem Evaluasi Kualitas Makanan Sekolah Berbasis {IoT}}
+      \field{volume}{5}
+      \field{year}{2020}
+      \field{pages}{233\bibrangedash 240}
+      \range{pages}{8}
+    \endentry
+    \entry{wicaksono2025implementasi}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d76317dde2beffd3d43c2fb143eb7a47}{%
+           family={Wicaksono},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{d76317dde2beffd3d43c2fb143eb7a47}
+      \strng{fullhash}{d76317dde2beffd3d43c2fb143eb7a47}
+      \strng{fullhashraw}{d76317dde2beffd3d43c2fb143eb7a47}
+      \strng{bibnamehash}{d76317dde2beffd3d43c2fb143eb7a47}
+      \strng{authorbibnamehash}{d76317dde2beffd3d43c2fb143eb7a47}
+      \strng{authornamehash}{d76317dde2beffd3d43c2fb143eb7a47}
+      \strng{authorfullhash}{d76317dde2beffd3d43c2fb143eb7a47}
+      \strng{authorfullhashraw}{d76317dde2beffd3d43c2fb143eb7a47}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{bit-Tech}
+      \field{number}{3}
+      \field{title}{Implementasi Sistem Berbasis Android untuk Monitoring Perkembangan Siswa Sekolah Dasar}
+      \field{volume}{7}
+      \field{year}{2025}
+      \field{pages}{732\bibrangedash 741}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.32877/bt.v7i3.2014
+      \endverb
+    \endentry
+    \entry{zhang2022aihealth}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=6d96d6fbd106e2ffd88ad23ce0119654}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ff38b98d2dc65002f66d028a85b9d58d}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e2e65bc31792929cfaa15cecf7f23965}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5b1f56fea4fb6917e7f067f6b32eaca6}
+      \strng{fullhash}{5b1f56fea4fb6917e7f067f6b32eaca6}
+      \strng{fullhashraw}{5b1f56fea4fb6917e7f067f6b32eaca6}
+      \strng{bibnamehash}{5b1f56fea4fb6917e7f067f6b32eaca6}
+      \strng{authorbibnamehash}{5b1f56fea4fb6917e7f067f6b32eaca6}
+      \strng{authornamehash}{5b1f56fea4fb6917e7f067f6b32eaca6}
+      \strng{authorfullhash}{5b1f56fea4fb6917e7f067f6b32eaca6}
+      \strng{authorfullhashraw}{5b1f56fea4fb6917e7f067f6b32eaca6}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{International Journal of Health Informatics}
+      \field{number}{2}
+      \field{title}{{AI}-based Health Program Optimization Using Machine Learning and Data Analytics}
+      \field{volume}{18}
+      \field{year}{2022}
+      \field{pages}{55\bibrangedash 67}
+      \range{pages}{13}
+    \endentry
+  \enddatalist
+  \missing{laudon2020}
+  \missing{pressman2019}
+\endrefsection
+\endinput
+

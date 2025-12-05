@@ -9,7 +9,7 @@ Program Makan Bergizi Gratis (MBG) merupakan inisiatif pemerintah Indonesia untu
 
 Tujuan utama program ini adalah untuk mengatasi permasalahan gizi buruk, meningkatkan konsentrasi belajar, serta mendukung perkembangan fisik dan mental anak usia sekolah. Pada tingkat SMA/SMK, program ini memiliki karakteristik khusus karena siswa sudah memiliki kemampuan untuk memberikan \textit{feedback} yang lebih terstruktur dan menggunakan teknologi digital secara lebih mandiri.
 
-Dalam praktiknya, beberapa permasalahan masih sering muncul, seperti distribusi makanan yang tidak merata, kualitas makanan yang tidak konsisten, keterbatasan dalam proses \textit{monitoring} dan evaluasi di lapangan, serta minimnya mekanisme untuk mengumpulkan \textit{feedback} langsung dari pengguna (siswa, guru, dan orang tua). Kondisi ini menunjukkan perlunya sistem yang dapat memfasilitasi komunikasi dua arah antara penyedia layanan dan pengguna akhir (\textbf{Kementerian Pendidikan dan Kebudayaan, 2023}).
+Dalam praktiknya, beberapa permasalahan masih sering muncul, seperti distribusi makanan yang tidak merata, kualitas makanan yang tidak konsisten, keterbatasan dalam proses \textit{monitoring} dan evaluasi di lapangan, serta minimnya mekanisme untuk mengumpulkan \textit{feedback} langsung dari pengguna (siswa, guru, dan orang tua). Kondisi ini menunjukkan perlunya sistem yang dapat memfasilitasi komunikasi dua arah antara penyedia layanan dan pengguna akhir \autocite{kemdikbud2023pedomanmbg}.
 
 Untuk menjamin keberlanjutan dan efektivitas program, dibutuhkan sistem informasi yang mampu memantau distribusi makanan, mendeteksi keluhan, serta mengevaluasi kepuasan pengguna secara \textit{real-time}. Dengan demikian, sistem berbasis teknologi informasi dapat membantu pihak sekolah dan pemerintah dalam mengambil keputusan berbasis data (\textit{data-driven decision making}) serta meningkatkan responsivitas terhadap kebutuhan pengguna.
 
@@ -25,7 +25,7 @@ Dalam konteks Program MBG, sistem informasi \textit{monitoring} dapat digunakan 
     \item Menyediakan visualisasi dan analisis tren kualitas makanan.
 \end{enumerate}
 
-Penelitian sebelumnya menunjukkan bahwa implementasi sistem \textit{monitoring} berbasis \textit{web} dan \textit{mobile} dapat meningkatkan transparansi, efisiensi, serta akurasi data dalam kegiatan operasional sekolah (\textbf{Suryani \& Prasetyo, 2021}). Sistem \textit{monitoring} yang baik juga memfasilitasi komunikasi antara berbagai \textit{stakeholder} (guru, siswa, orang tua, dan pihak dapur) dalam lingkup program yang diawasi.
+Penelitian sebelumnya menunjukkan bahwa implementasi sistem \textit{monitoring} berbasis \textit{web} dan \textit{mobile} dapat meningkatkan transparansi, efisiensi, serta akurasi data dalam kegiatan operasional sekolah \autocite{wicaksono2025implementasi}. Sistem \textit{monitoring} yang baik juga memfasilitasi komunikasi antara berbagai \textit{stakeholder} (guru, siswa, orang tua, dan pihak dapur) dalam lingkup program yang diawasi.
 
 Khusus untuk tingkat SMA/SMK, siswa umumnya memiliki kemampuan teknologi yang memadai untuk berinteraksi dengan sistem digital, memberikan \textit{feedback} yang lebih detail, dan menggunakan aplikasi \textit{mobile} secara mandiri. Hal ini membuat implementasi sistem \textit{monitoring} di tingkat ini lebih efektif dibandingkan tingkat pendidikan yang lebih rendah.
 
@@ -40,15 +40,15 @@ Dalam sistem MBG \textit{Monitoring}, kecerdasan buatan (\textit{Artificial Inte
     \item \textit{Sentiment analysis}, yaitu menganalisis \textit{feedback} dari siswa dan guru terhadap makanan yang disajikan untuk mengetahui tingkat kepuasan.
 \end{enumerate}
 
-Studi oleh \textbf{Zhang et al.\ (2022)} menunjukkan bahwa kombinasi antara sistem informasi dan algoritma pembelajaran mesin dapat meningkatkan efisiensi program kesehatan masyarakat hingga 30\%.
+Studi oleh \textcite{zhang2022aihealth} menunjukkan bahwa kombinasi antara sistem informasi dan algoritma pembelajaran mesin dapat meningkatkan efisiensi program kesehatan masyarakat hingga 30\%.
 
 \section{Penelitian Terdahulu yang Relevan}
 
 Beberapa penelitian yang relevan dengan topik ini antara lain:
 \begin{enumerate}
-    \item \textbf{Putra dan Sari (2022)} mengembangkan sistem \textit{monitoring} gizi siswa berbasis \textit{mobile} yang memungkinkan guru melaporkan data konsumsi makanan secara \textit{real-time}.
-    \item \textbf{Rahmawati et al.\ (2021)} mengusulkan sistem deteksi dini kasus gizi buruk menggunakan algoritma \textit{Decision Tree} dengan tingkat akurasi mencapai 89\%.
-    \item \textbf{Santoso (2020)} merancang sistem evaluasi kualitas makanan di sekolah berbasis \textit{Internet of Things} (IoT) yang mengirimkan data suhu dan kesegaran makanan ke \textit{server} pusat.
+    \item \textcite{putra2022monitoring} mengembangkan sistem \textit{monitoring} gizi siswa berbasis \textit{mobile} yang memungkinkan guru melaporkan data konsumsi makanan secara \textit{real-time}.
+    \item \textcite{rahmawati2021decisiontree} mengusulkan sistem deteksi dini kasus gizi buruk menggunakan algoritma \textit{Decision Tree} dengan tingkat akurasi mencapai 89\%.
+    \item \textcite{santoso2020iot} merancang sistem evaluasi kualitas makanan di sekolah berbasis \textit{Internet of Things} (IoT) yang mengirimkan data suhu dan kesegaran makanan ke \textit{server} pusat.
 \end{enumerate}
 
 Meskipun penelitian-penelitian tersebut menunjukkan kemajuan signifikan, belum ada sistem yang secara komprehensif mengintegrasikan \textit{monitoring} distribusi, presensi konsumsi, keluhan pengguna, serta analisis berbasis AI secara bersamaan. Hal ini menjadi \textit{research gap} dan dasar pengembangan sistem pemantauan MBG pada penelitian ini.
@@ -58,8 +58,8 @@ Meskipun penelitian-penelitian tersebut menunjukkan kemajuan signifikan, belum a
 Kerangka konseptual dalam penelitian ini menggambarkan keterkaitan antara komponen sistem MBG \textit{Monitoring} dengan elemen AI yang diterapkan. Secara umum, sistem akan terdiri dari:
 
 \begin{enumerate}
-    \item \textit{Input}: data distribusi makanan, data presensi siswa, data keluhan, dan data menu harian;
-    \item \textit{Proses}: analisis pola konsumsi menggunakan algoritma \textit{machine learning} (rekomendasi menu dan deteksi anomali);
+    \item \textit{Input}: data distribusi makanan, data presensi siswa, data keluhan, dan data menu harian.
+    \item Proses: analisis pola konsumsi menggunakan algoritma \textit{machine learning} (rekomendasi menu dan deteksi anomali).
     \item \textit{Output}: \textit{dashboard} \textit{monitoring}, notifikasi peringatan, dan rekomendasi perbaikan menu.
 \end{enumerate}
 
@@ -75,10 +75,10 @@ Teori sistem informasi menjelaskan bagaimana sistem yang terkomputerisasi dapat 
 
 \subsection{Teori Kepuasan Pengguna (\textit{User Satisfaction Theory})}
 
-Kepuasan pengguna merupakan salah satu ukuran utama keberhasilan sebuah sistem informasi. \textbf{DeLone dan McLean (2003)} mengembangkan model kesuksesan sistem informasi yang mencakup kualitas sistem, kualitas informasi, penggunaan sistem, kepuasan pengguna, dan manfaat bersih. Dalam konteks sistem MBG, kepuasan pengguna dapat diukur melalui:
+Kepuasan pengguna merupakan salah satu ukuran utama keberhasilan sebuah sistem informasi. \textcite{delone2003model} mengembangkan model kesuksesan sistem informasi yang mencakup kualitas sistem, kualitas informasi, penggunaan sistem, kepuasan pengguna, dan manfaat bersih. Dalam konteks sistem MBG, kepuasan pengguna dapat diukur melalui:
 \begin{enumerate}
-    \item Kemudahan penggunaan sistem,
-    \item Ketersediaan dan akurasi informasi,
+    \item Kemudahan penggunaan sistem.
+    \item Ketersediaan dan akurasi informasi.
     \item Responsivitas terhadap \textit{feedback} pengguna.
 \end{enumerate}
 

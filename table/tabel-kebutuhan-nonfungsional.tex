@@ -1,0 +1,43 @@
+\begin{longtable}{| p{0.08\textwidth} | p{0.26\textwidth} | p{0.56\textwidth} |}
+\caption{Kebutuhan nonfungsional sistem}
+\label{tab:kebutuhan-nonfungsional} \\
+\hline
+Kode & Kebutuhan nonfungsional & Deskripsi \\
+\hline
+\endfirsthead
+
+\multicolumn{3}{l}{\textit{Tabel \ref{tab:kebutuhan-nonfungsional} (lanjutan)}}\\
+\hline
+Kode & Kebutuhan nonfungsional & Deskripsi \\
+\hline
+\endhead
+
+\hline
+\multicolumn{3}{r}{\textit{Bersambung ke halaman berikutnya}} \\
+\endfoot
+
+\hline
+\endlastfoot
+
+% ====== DATA TABEL DIMULAI DI SINI ======
+NF.1 & Kinerja sistem (\textit{performance}) &
+Sistem harus merespons halaman utama, presensi, dan \textit{feedback} dalam waktu $\leq$ 3 detik pada penggunaan normal, dan mampu menangani minimal 50 pengguna aktif bersamaan. \\
+\hline
+NF.2 & Keamanan dan privasi data &
+Sistem menyediakan autentikasi per pengguna, pembatasan akses berdasarkan peran (\textit{role-based access}), serta komunikasi berbasis protokol aman (misalnya HTTPS) saat di-\textit{deploy}. Data siswa yang ditampilkan pada laporan harus dianonimkan bila bersifat agregat. \\
+\hline
+NF.3 & Kemudahan penggunaan (\textit{usability}) &
+Antarmuka sistem harus sederhana dan konsisten, dapat diakses melalui peramban ponsel siswa tanpa instalasi aplikasi tambahan, serta menggunakan bahasa yang mudah dipahami oleh pengguna nonteknis. \\
+\hline
+NF.4 & Keandalan sistem (\textit{reliability}) &
+Sistem harus memiliki \textit{availability} minimal 95\% dalam sebulan (tidak termasuk \textit{scheduled maintenance}) untuk memastikan akses yang konsisten. \\
+\hline
+NF.5 & Pemeliharaan dan pengembangan lanjut (\textit{maintainability}) &
+Struktur kode harus modular sehingga fitur baru (misalnya kategori keluhan tambahan atau penyesuaian \textit{rating}) dapat dikembangkan tanpa perubahan besar pada sistem inti. \\
+\hline
+NF.6 & Kualitas fitur AI &
+Analisis sentimen harus mencapai tingkat akurasi wajar (sekitar 75--80\%) pada \textit{dataset} uji internal, dan proses analisis per \textit{feedback} harus diselesaikan dalam waktu $\leq$ 2 detik pada lingkungan pengujian tugas akhir. \\
+\hline
+% ====== AKHIR DATA TABEL ======
+
+\end{longtable}

@@ -7,18 +7,219 @@
 \chapter{ANALISIS MASALAH}
 \label{chap:analisis-masalah}
 \section{Analisis Kondisi Saat Ini}
-Menurut \textcite{laudon2020}, gambarkan terlebih dahulu model konseptual sistem yang ada saat ini. Model konseptual ini berisi berbagai komponen atau subsitem dan interaksi antarsubsistem tersebut. Setelah itu, berikan penjelasan tentang masalah yang ada pada sistem tersebut. Paragraf berikut berisi contoh penjabaran masalah sistem informasi fasilitas kesehatan untuk pasien \autocite{pressman2019}. 
+
+Dalam memahami akar permasalahan secara komprehensif, perlu dilakukan analisis terhadap kondisi aktual pelaksanaan program MBG di tingkat SMA/SMK. Analisis ini dilakukan berdasarkan observasi langsung, serta akan ditambahkan dengan wawancara bersama operator dapur, serta diskusi informal dengan siswa dan guru pembina di beberapa SMA/SMK yang telah menjalankan program MBG.
+
+Berdasarkan beberapa riset pengumpulan data, sistem program Makan Bergizi Gratis (MBG) di tingkat SMA/SMK saat ini masih menggunakan mekanisme pemantauan yang bersifat manual dan belum sepenuhnya terintegrasi. Secara umum, alur operasional program MBG di SMA/SMK memiliki beberapa komponen sistem sebagai berikut.
+
+\begin{enumerate}
+    \item Penyediaan Makanan
+
+    Proses penyediaan makanan bergizi dimulai dari dapur SPPG (Satuan Penyelenggara Program Gizi) yang bertanggung jawab atas persiapan makanan sesuai standar gizi yang ditetapkan. Secara rinci, proses ini mencakup beberapa poin berikut.
+    \begin{enumerate}[a.]
+    \item Dapur SPPG mempersiapkan makanan bergizi sesuai standar yang ditetapkan.
+    \item Menu dirancang oleh ahli gizi dengan mempertimbangkan standar gizi nasional.
+    \item Makanan didistribusikan pada waktu yang telah ditentukan (umumnya pada jam istirahat pertama atau kedua).
+    \end{enumerate}
+
+    \item Pencatatan Distribusi
+
+    Pencatatan distribusi makanan dilakukan secara konvensional dengan berbagai keterbatasan sebagai berikut.
+    \begin{enumerate}[a.]
+    \item Pencatatan dilakukan secara manual menggunakan daftar hadir atau catatan di buku.
+    \item Tidak ada sistem pencatatan terpadu yang mencatat jumlah porsi yang dibagikan per hari secara digital.
+    \item Data historis tidak tersimpan dengan baik dan sering hilang atau tidak lengkap.
+    \item Informasi tentang variasi menu, kualitas, dan kendala distribusi hanya tersimpan dalam bentuk catatan personal operator atau guru, sehingga sulit untuk dilacak kembali.
+    \end{enumerate}
+
+    \item Partisipasi Siswa
+
+    Keterlibatan siswa dalam program MBG masih bersifat pasif tanpa mekanisme \textit{feedback} yang terstruktur dengan detail sebagai berikut.
+    \begin{enumerate}[a.]
+    \item Siswa SMA/SMK menerima makanan tanpa ada mekanisme \textit{feedback} terstruktur.
+    \item Keluhan atau saran dari siswa umumnya disampaikan secara langsung kepada guru atau kepala sekolah tanpa dokumentasi.
+    \item Tidak ada sistem pencatatan keluhan yang terorganisir sehingga sulit untuk melakukan analisis tren keluhan.
+    \item \textit{Feedback} yang disampaikan sering kali tidak ditindaklanjuti karena tidak terdokumentasi dengan baik.
+    \end{enumerate}
+
+    \item \textit{Monitoring} dan Evaluasi
+
+    Proses evaluasi program dilakukan secara periodik namun tidak berbasis data yang sistematis dengan detail sebagai berikut.
+    \begin{enumerate}[a.]
+    \item Evaluasi program dilakukan secara periodik (mingguan atau bulanan) melalui pertemuan informal dengan guru dan operator sekolah.
+    \item Tidak ada data tertulis yang sistematis tentang keluhan siswa atau tingkat kepuasan.
+    \item Pengambilan keputusan untuk perbaikan program dilakukan berdasarkan pengalaman personal dan intuisi, bukan berdasarkan data yang terintegrasi.
+    \item Laporan kepada dinas pendidikan atau pihak eksternal sering kali terlambat atau tidak lengkap karena ketiadaan sistem pencatatan yang baik.
+    \end{enumerate}
+\end{enumerate}
+
+Jika digambarkan dalam bentuk diagram, berikut adalah model konseptual sistem yang tersedia saat ini.
+
+\begin{figure}[t]
+  \centering
+  \captionsetup{justification=centering}
+  \includegraphics[width=0.7\textwidth]{image/bab3-alur-mbg-saat-ini}
+  \caption{Alur sistem pelaksanaan program MBG saat ini}
+  \label{fig:alur-mbg-saat-ini}
+\end{figure}
+
+\FloatBarrier
+
+Dari model konseptual pada Gambar~\ref{fig:alur-mbg-saat-ini}, terlihat bahwa sistem saat ini bersifat linear dan tidak memiliki mekanisme \textit{loop feedback} yang terstruktur. Hal ini menyebabkan informasi penting tentang kualitas program tidak tersampaikan dengan baik kepada pengambil keputusan.
+
 \section{Analisis Kebutuhan}
-\lipsum[4]
+
+Berdasarkan analisis kondisi saat ini, dapat diidentifikasi berbagai permasalahan yang dihadapi oleh para pemangku kepentingan dalam pelaksanaan program MBG. Untuk merancang sistem yang efektif, perlu dilakukan analisis kebutuhan yang komprehensif meliputi identifikasi masalah pengguna, kebutuhan fungsional sistem, serta kebutuhan nonfungsional yang harus dipenuhi.
+
 \subsection{Identifikasi Masalah Pengguna}
-\lipsum[5]
+
+Identifikasi masalah pengguna dilakukan melalui metode wawancara mendalam dan observasi partisipatif. Untuk saat ini, data didapatkan dari studi literatur dan observasi yang menunjukkan bahwa setiap kelompok pengguna menghadapi tantangan spesifik yang berbeda-beda tetapi saling terkait. Berikut adalah rincian masalah yang dihadapi oleh masing-masing kelompok pengguna.
+
+\begin{enumerate}
+    \item Operator Dapur
+    
+    Operator dapur merupakan pihak yang bertanggung jawab terhadap persiapan menu, pengolahan makanan, serta proses distribusi harian. Aktivitas mereka menjadi fondasi utama keberhasilan program. Namun, proses operasional masih dilakukan secara manual dan tidak terintegrasi sehingga menimbulkan beberapa kendala.
+
+    Pertama, pencatatan informasi menu dan jumlah porsi hanya dituliskan pada dokumen fisik atau catatan pribadi, menyebabkan data mudah hilang dan sulit ditelusuri kembali. Kedua, tidak adanya sistem pelaporan distribusi secara \textit{real-time} menyulitkan dapur untuk mengetahui apakah makanan telah diterima seluruhnya oleh siswa atau terdapat hambatan selama penyaluran. Ketiga, dapur tidak memiliki akses terstruktur terhadap keluhan atau umpan balik dari siswa dan guru sehingga kualitas makanan sulit dievaluasi secara objektif dan keberlanjutan perbaikan tidak dapat dipantau.
+
+    \item Guru Pembina
+
+    Guru pembina berperan sebagai penghubung antara dapur, siswa, dan pihak sekolah. Mereka memantau kehadiran siswa, memastikan konsumsi makanan berjalan sesuai standar, serta menjadi pihak yang menerima keluhan atau masukan dari siswa. Namun, peran ini terbebani oleh ketiadaan sistem yang terintegrasi.
+
+    Pertama, pencatatan presensi konsumsi siswa masih bersifat manual sehingga rentan terjadi ketidaktepatan data dan memakan waktu. Kedua, tidak tersedia mekanisme formal untuk mengelola dan mendokumentasikan keluhan yang disampaikan siswa, sehingga umpan balik bersifat sporadis dan tidak dapat dianalisis secara sistematis. Ketiga, guru kesulitan memperoleh gambaran menyeluruh tentang tren kualitas makanan dan tingkat kepuasan siswa dari waktu ke waktu sehingga proses evaluasi harus mengandalkan pengamatan informal yang kurang dapat diandalkan.
+
+    \item Siswa SMA/SMK
+
+    Siswa merupakan penerima manfaat langsung program MBG dan menjadi sumber informasi penting dalam mengukur keberhasilan program. Meskipun mereka memiliki kemampuan teknologi yang baik, siswa tidak memiliki ruang formal untuk memberikan masukan terkait pengalaman konsumsi mereka.
+
+    Pertama, siswa tidak memiliki platform resmi untuk menyampaikan opini, baik berupa keluhan maupun apresiasi, sehingga suara siswa tidak terdokumentasi dan jarang sampai ke pihak dapur atau manajemen sekolah. Kedua, siswa tidak memiliki informasi transparan mengenai menu, jadwal distribusi, atau tindak lanjut dari keluhan yang pernah mereka sampaikan, sehingga program terkesan tidak responsif. Ketiga, tidak ada mekanisme bagi siswa untuk memantau apakah perbaikan atas keluhan mereka benar-benar dilakukan, sehingga menurunkan rasa kepemilikan (\textit{sense of participation}) terhadap program.
+
+\end{enumerate}
+
 \subsection{Kebutuhan Fungsional}
-\lipsum[6]
+
+Berdasarkan identifikasi masalah di atas, dapat dirumuskan kebutuhan fungsional sistem yang harus dipenuhi untuk mengatasi permasalahan tersebut. Kebutuhan fungsional menggambarkan fitur atau fungsi yang harus dimiliki oleh sistem agar dapat memenuhi kebutuhan pengguna secara efektif.
+
+Kebutuhan fungsional dikategorikan berdasarkan peran pengguna dalam sistem, yaitu operator dapur, guru pembina, dan siswa. Setiap kebutuhan diberi kode identifikasi untuk memudahkan \textit{traceability} dalam tahap desain dan implementasi. Rincian kebutuhan fungsional dirangkum pada Tabel~\ref{tab:kebutuhan-fungsional}.
+
+\input{table/tabel-kebutuhan-fungsional.tex}
+
+\FloatBarrier
+
 \subsection{Kebutuhan Nonfungsional}
-\lipsum[7]
+
+Kebutuhan nonfungsional pada sistem pemantauan MBG difokuskan pada aspek yang relevan dengan konteks implementasi prototipe di lingkungan satu atau beberapa SMA/SMK, dengan jumlah pengguna utama berupa siswa, guru pembina, dan dapur SPPG. Bagian ini merumuskan batasan kualitas sistem yang perlu dipenuhi agar sistem dapat digunakan secara nyaman dalam operasi sehari-hari, tanpa menetapkan standar berlebihan di luar skala prototipe.
+
+Kebutuhan nonfungsional disusun berdasarkan \textit{best practice} dalam pengembangan sistem informasi dan disesuaikan dengan konteks penggunaan di lingkungan sekolah. Tabel~\ref{tab:kebutuhan-nonfungsional} merangkum kebutuhan nonfungsional yang perlu diterapkan dalam sistem.
+
+\input{table/tabel-kebutuhan-nonfungsional.tex}
+
+\FloatBarrier
 
 \section{Analisis Pemilihan Solusi}
+
+Setelah kebutuhan fungsional dan nonfungsional sistem dipetakan dengan detail, tahap selanjutnya adalah menganalisis berbagai alternatif solusi yang mungkin untuk mengatasi permasalahan yang telah diidentifikasi. Pemilihan solusi dilakukan dengan mempertimbangkan berbagai faktor seperti keterbatasan waktu, sumber daya, kebutuhan inovasi, serta kompleksitas implementasi.
+
+Bagian ini memaparkan beberapa alternatif solusi yang dipertimbangkan, kemudian melakukan analisis komparatif untuk menentukan solusi yang paling tepat untuk diimplementasikan dalam penelitian ini.
+
 \subsection{Alternatif Solusi}
-\lipsum[8]
+
+Terdapat beberapa pendekatan yang dapat diambil dalam mengembangkan sistem \textit{Monitoring} MBG. Setiap alternatif memiliki kelebihan dan kekurangan yang perlu dipertimbangkan secara matang. Berikut adalah penjelasan dari tiap alternatif solusi.
+
+\begin{enumerate}
+    \item Alternatif 1 -- Sistem Web \textit{Monitoring Tanpa AI} (\textit{Rule-Based})
+
+    Alternatif pertama adalah mengembangkan sistem \textit{monitoring} berbasis web yang hanya mencakup fitur dasar tanpa integrasi kecerdasan buatan. Sistem ini hanya mencakup fitur \textit{monitoring} distribusi, pencatatan presensi, dan manajemen \textit{feedback} secara manual. Selain itu, sistem tidak menggunakan \textit{machine learning} untuk analisis sentimen, melainkan menggunakan pendekatan \textit{rule-based} dengan pencocokan kata kunci sederhana (misalnya kata ``enak'' = positif, ``tidak enak'' = negatif).
+
+    Kelebihan dari alternatif ini antara lain:
+    \begin{enumerate}[a.]
+    \item Implementasi lebih cepat karena tidak perlu \textit{training} model AI.
+    \item Akurasi terjamin untuk kasus sederhana dengan aturan yang sudah didefinisikan.
+    \item Pemeliharaan lebih mudah karena tidak ada model AI yang perlu diperbarui.
+    \item Biaya komputasi lebih rendah.
+    \end{enumerate}
+
+    \vspace{0.5\baselineskip}
+    Sementara itu, kekurangan alternatif ini adalah:
+    \begin{enumerate}[a.]
+    \item Tidak ada inovasi AI sehingga kontribusi penelitian kurang signifikan.
+    \item Fleksibilitas terbatas dalam menangani variasi bahasa dan konteks.
+    \item Analisis \textit{feedback} masih banyak melibatkan pekerjaan manual sehingga tidak mengurangi beban kerja operator secara signifikan.
+    \item Tidak dapat menangkap sentimen yang kompleks (seperti sarkasme dan konteks).
+    \end{enumerate}
+
+    \item Alternatif 2 -- Sistem Web dan \textit{Mobile App} dengan \textit{Sentiment Analysis}
+
+    Alternatif kedua adalah mengembangkan sistem yang lebih komprehensif dengan platform web dan \textit{mobile} \textit{native} yang terpisah. Sistem ini memiliki fitur lengkap berupa \textit{monitoring} yang dilengkapi dengan \textit{feedback management} untuk dua platform, yakni aplikasi web dan aplikasi \textit{mobile} \textit{native}. Selain itu, sistem akan mengintegrasikan \textit{sentiment analysis} berbasis \textit{machine learning} (Naive Bayes atau SVM) untuk analisis \textit{feedback} secara otomatis.
+
+    Kelebihan dari alternatif ini adalah:
+    \begin{enumerate}[a.]
+    \item Lebih inovatif dengan integrasi AI yang lebih canggih.
+    \item \textit{Sentiment analysis} dapat menangani variasi bahasa dan konteks yang lebih kompleks.
+    \item Pengalaman pengguna (\textit{user experience}) lebih baik di \textit{mobile} karena menggunakan aplikasi \textit{native} dengan performa yang optimal.
+    \item Fitur-fitur \textit{native mobile} (seperti \textit{push notification} dan \textit{offline mode}) dapat dimanfaatkan.
+    \end{enumerate}
+
+    \vspace{0.5\baselineskip}
+    Adapun kekurangan alternatif ini sebagai berikut:
+    \begin{enumerate}[a.]
+    \item Pengembangan lebih kompleks karena harus memelihara dua platform berbeda (web dan \textit{mobile native}).
+    \item \textit{Timeline} singkat 3--4 bulan cukup sulit untuk mengembangkan web dan aplikasi \textit{native} (iOS dan Android) yang berkualitas.
+    \item Pemeliharaan lebih sulit karena harus memperbarui tiga \textit{codebase} (web, iOS, Android) secara terpisah.
+    \item Memerlukan kemampuan pengembangan yang lebih tinggi (web dan \textit{mobile development}).
+    \item Biaya pengembangan dan pemeliharaan lebih tinggi.
+    \end{enumerate}
+
+    \item Alternatif 3 -- Sistem Web dengan \textit{Sentiment Analysis}
+
+    Alternatif ketiga adalah mengembangkan sistem berbasis web dengan \textit{responsive design} yang dapat diakses dari berbagai perangkat, termasuk \textit{mobile}. Sistem ini juga terintegrasi dengan \textit{sentiment analysis} berbasis \textit{machine learning} untuk analisis \textit{feedback} otomatis.
+
+    Kelebihan dari alternatif ini antara lain:
+    \begin{enumerate}[a.]
+    \item Hanya perlu mengembangkan satu platform.
+    \item Semua kebutuhan fungsional tetap dapat dipenuhi dengan baik.
+    \item Tetap mengintegrasikan AI (\textit{sentiment analysis}) sesuai tujuan tugas akhir dan memberikan kontribusi penelitian yang signifikan.
+    \item Menyediakan pengalaman pengguna yang baik dengan \textit{responsive design} dan potensi pemanfaatan fitur PWA (\textit{Progressive Web App}).
+    \item Pemeliharaan lebih mudah dengan satu \textit{codebase} yang perlu dikelola.
+    \item Penggunaan sumber daya dan \textit{budget} lebih efisien.
+    \item Bersifat \textit{cross-platform} secara alami karena dapat diakses dari perangkat apa pun yang memiliki peramban.
+    \end{enumerate}
+
+    \vspace{0.5\baselineskip}
+    Kekurangan dari alternatif ini adalah:
+    \begin{enumerate}[a.]
+    \item Pengalaman pengguna di \textit{mobile} tidak seoptimal aplikasi \textit{native}.
+    \item Beberapa fitur \textit{native mobile} (seperti integrasi mendalam dengan sistem operasi) tidak tersedia.
+    \item Performa di \textit{mobile} sedikit lebih rendah dibandingkan aplikasi \textit{native}.
+    \end{enumerate}
+\end{enumerate}
+
+
 \subsection{Analisis Penentuan Solusi}
-\lipsum[9]
+
+Dalam menentukan solusi yang paling tepat, dilakukan analisis komparatif terhadap ketiga alternatif menggunakan metode \textit{scoring} berdasarkan kriteria-kriteria yang relevan. Setiap kriteria diberi bobot sesuai dengan prioritas dan tingkat kepentingannya dalam konteks penelitian ini.
+
+Terdapat beberapa kriteria yang dinilai dari skala 1-10 dengan angka terbesar menunjukkan nilai yang terbaik. Beberapa kriteria penilaian dalam menentukan solusi terbaik tersebut sebagai berikut.
+\begin{enumerate}
+  \item \textit{Feasibility} (30\%): kemungkinan untuk diselesaikan dalam \textit{timeline} 3--4 bulan dengan sumber daya yang tersedia.
+  \item Inovasi (25\%): tingkat inovasi teknologi, khususnya integrasi AI atau \textit{sentiment analysis}.
+  \item \textit{User experience} (20\%): kualitas pengalaman pengguna dari sisi kemudahan dan kenyamanan.
+  \item \textit{Maintenance effort} (15\%): tingkat kesulitan dalam pemeliharaan dan pembaruan sistem.
+  \item \textit{Budget}/\textit{resource} (10\%): efisiensi penggunaan \textit{budget} dan sumber daya yang tersedia.
+\end{enumerate}
+
+Tabel~\ref{tab:perbandingan-alternatif} menyajikan tabel perbandingan dari ketiga alternatif solusi berdasarkan kriteria tersebut.
+
+\input{table/perbandingan-solusi.tex}
+\FloatBarrier
+
+Berdasarkan hasil analisis komparatif pada Tabel~\ref{tab:perbandingan-alternatif}, alternatif 3 (sistem web dengan \textit{sentiment analysis}) dipilih sebagai solusi yang akan diimplementasikan dalam penelitian ini. Pemilihan ini didasarkan pada beberapa pertimbangan berikut.
+\begin{enumerate}
+  \item Memiliki nilai \textit{feasibility} tertinggi sehingga realistis untuk diselesaikan dalam \textit{timeline} penelitian.
+  \item Tetap menghadirkan inovasi melalui integrasi AI, khususnya \textit{sentiment analysis}.
+  \item Menawarkan \textit{user experience} yang baik melalui \textit{responsive web design}.
+  \item \textit{Maintenance} lebih mudah karena hanya mengelola satu \textit{codebase}.
+  \item Penggunaan sumber daya dan \textit{budget} lebih efisien dibanding pengembangan multi\-platform \textit{native}.
+\end{enumerate}
+
+Dengan pemilihan alternatif 3 ini, sistem yang dikembangkan diharapkan dapat memenuhi seluruh kebutuhan fungsional dan nonfungsional yang telah diidentifikasi, tetap memberikan inovasi melalui integrasi AI, dan dapat diselesaikan dengan baik dalam \textit{timeframe} yang tersedia.

@@ -4991,8 +4991,6 @@
     <bcf:citekey order="10" intorder="1">santoso2020iot</bcf:citekey>
     <bcf:citekey order="11" intorder="1">delone2003model</bcf:citekey>
     <bcf:citekey order="12" intorder="1">delone2003model</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">laudon2020</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">pressman2019</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="cms">

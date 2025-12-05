@@ -94,48 +94,48 @@
       \field{title}{Pedoman Pelaksanaan Program Makan Bergizi Sekolah Dasar}
       \field{year}{2023}
     \endentry
-    \entry{rahmawati2021decisiontree}{article}{}{}
+    \entry{ramadhan2020montuza}{article}{}{}
       \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=081b09ef76813245c8966d18fa21d6ed}{%
-           family={Rahmawati},
+        {{un=0,uniquepart=base,hash=4aae08a77c48e852ab64f3e87df7f55a}{%
+           family={Ramadhan},
            familyi={R\bibinitperiod},
-           given={F.},
-           giveni={F\bibinitperiod},
+           given={A.\bibnamedelimi S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=f686e31ab083815d10f76738ac3e23e3}{%
-           family={Hidayat},
-           familyi={H\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod},
+        {{un=0,uniquepart=base,hash=a03051ff28905b89f399589c92a99fbd}{%
+           family={Wahyuni},
+           familyi={W\bibinitperiod},
+           given={E.\bibnamedelimi S.},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=a2d17b6927bdcdaa9039e1fe81fe4318}{%
-           family={Kusuma},
-           familyi={K\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod},
+        {{un=0,uniquepart=base,hash=dd52e31b11c8333782e42d479308f9cc}{%
+           family={Siantoro},
+           familyi={S\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{1151bd5b70b94917bd46ddc2289c7cec}
-      \strng{fullhash}{1151bd5b70b94917bd46ddc2289c7cec}
-      \strng{fullhashraw}{1151bd5b70b94917bd46ddc2289c7cec}
-      \strng{bibnamehash}{1151bd5b70b94917bd46ddc2289c7cec}
-      \strng{authorbibnamehash}{1151bd5b70b94917bd46ddc2289c7cec}
-      \strng{authornamehash}{1151bd5b70b94917bd46ddc2289c7cec}
-      \strng{authorfullhash}{1151bd5b70b94917bd46ddc2289c7cec}
-      \strng{authorfullhashraw}{1151bd5b70b94917bd46ddc2289c7cec}
+      \strng{namehash}{d9b7c8588c02d30ed11584976008bc67}
+      \strng{fullhash}{d9b7c8588c02d30ed11584976008bc67}
+      \strng{fullhashraw}{d9b7c8588c02d30ed11584976008bc67}
+      \strng{bibnamehash}{d9b7c8588c02d30ed11584976008bc67}
+      \strng{authorbibnamehash}{d9b7c8588c02d30ed11584976008bc67}
+      \strng{authornamehash}{d9b7c8588c02d30ed11584976008bc67}
+      \strng{authorfullhash}{d9b7c8588c02d30ed11584976008bc67}
+      \strng{authorfullhashraw}{d9b7c8588c02d30ed11584976008bc67}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{author}
-      \field{journaltitle}{Jurnal Ilmu Komputer dan Aplikasi}
+      \field{journaltitle}{Jurnal Education and Development}
       \field{number}{3}
-      \field{title}{Implementasi {Decision Tree} untuk Deteksi Dini Kasus Gizi Buruk pada Anak Sekolah}
+      \field{title}{Pengembangan Aplikasi Monitoring Status Gizi Remaja (MONTUZA) Berbasis Smartphone pada Siswa Sekolah Menengah Atas}
       \field{volume}{9}
-      \field{year}{2021}
-      \field{pages}{122\bibrangedash 131}
-      \range{pages}{10}
+      \field{year}{2020}
+      \field{pages}{301\bibrangedash 305}
+      \range{pages}{5}
     \endentry
     \entry{wicaksono2025implementasi}{article}{}{}
       \name{author}{1}{}{%
@@ -212,8 +212,6 @@
       \range{pages}{13}
     \endentry
   \enddatalist
-  \missing{putra2022monitoring}
-  \missing{santoso2020iot}
 \endrefsection
 \endinput
 

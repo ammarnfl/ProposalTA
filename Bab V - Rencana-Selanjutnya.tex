@@ -3,9 +3,152 @@
 % ==========================================
 \chapter{RENCANA SELANJUTNYA}
 \label{chap:rencana-selanjutnya}
-Jelaskan secara detail langkah-langkah rencana selanjutnya, hal-hal yang diperlukan atau akan disiapkan, dan risiko dan mitigasinya, yang meliputi:
+
+\section{Rencana Implementasi}
+
+\subsection{Metodologi Implementasi}
+
+Implementasi sistem MBG \textit{Monitoring} akan menggunakan metodologi \textit{Agile Development} dengan pendekatan iteratif. Pemilihan metodologi ini didasarkan pada pertimbangan bahwa \textit{agile} memungkinkan fleksibilitas dalam pengembangan ketika menghadapi perubahan kebutuhan dari \textit{stakeholder}. Dengan \textit{timeline} yang terbatas, yaitu sekitar 3--4 bulan, dan sumber daya pengembangan yang hanya melibatkan peneliti secara mandiri, pendekatan iteratif memastikan bahwa fitur-fitur inti dapat diselesaikan dengan baik sebelum fitur tambahan dikerjakan.
+
+\subsection{Tahapan Implementasi}
+
+Implementasi sistem direncanakan dalam jangka waktu 3--4 bulan dengan metode pengembangan bertahap (iteratif). Secara umum, tahapan dan perkiraan waktunya adalah sebagai berikut.
+
 \begin{enumerate}
-\item	Rencana implementasi, termasuk alat dan bahan yang diperlukan, lingkungan, konfigurasi, biaya, dan sebagainya.
-\item	Desain pengujian dan evaluasi, misalnya metode verifikasi dan validasi.
-\item	Analisis risiko dan mitigasi, misalnya tindakan selanjutnya jika ada yang tidak berjalan sesuai rencana.
+    \item Bulan I -- Analisis dan Desain
+
+    Pada bulan pertama, fokus kegiatan adalah penyelesaian spesifikasi kebutuhan sistem dan desain detail. Aktivitas yang dilakukan meliputi:
+    \begin{enumerate}[a.]
+    \item identifikasi \textit{use case} berdasarkan kebutuhan fungsional;
+    \item perancangan arsitektur sistem secara konseptual dan logis;
+    \item pembuatan \textit{prototype} antarmuka pengguna (UI);
+    \item perancangan basis data, termasuk pembuatan ERD dan skema tabel.
+    \end{enumerate}
+
+    \vspace{0.5\baselineskip}
+
+    Alat yang digunakan antara lain notasi UML untuk diagram perancangan dan \textit{tool} seperti Figma untuk prototipe antarmuka.
+
+    \item Bulan II -- Pengembangan \textit{Back-End}
+
+    Pada bulan kedua, pengembangan difokuskan pada pembangunan \textit{server} dan basis data untuk \textit{back-end}. Kegiatan utamanya meliputi:
+    \begin{enumerate}[a.]
+    \item pembuatan \textit{service} \textit{back-end} menggunakan \textit{framework} Node.js yang terhubung ke basis data MySQL;
+    \item perancangan dan implementasi \textit{REST API} untuk modul utama seperti manajemen pengguna, pencatatan distribusi, presensi, dan penyimpanan \textit{feedback};
+    \item pengaturan layanan model IndoBERT dengan pustaka \textit{HuggingFace Transformers} di sisi \textit{back-end} sebagai fondasi modul analisis sentimen;
+    \item pengujian awal setiap modul menggunakan \textit{unit testing} sederhana.
+    \end{enumerate}
+
+    \item Bulan III -- Pengembangan \textit{Front-End} dan Integrasi
+
+    Bulan ketiga difokuskan pada pembangunan antarmuka web dan integrasi dengan \textit{back-end}. Aktivitas yang direncanakan antara lain:
+    \begin{enumerate}[a.]
+    \item pengembangan antarmuka web menggunakan \textit{framework} \textit{React};
+    \item implementasi formulir input menu, presensi, dan \textit{feedback} sesuai prototipe yang telah dirancang;
+    \item integrasi antarmuka \textit{front-end} dengan \textit{REST API back-end}, termasuk pengujian alur lengkap mulai dari pengisian formulir hingga penyimpanan ke basis data;
+    \item integrasi alur analisis sentimen, yaitu menghubungkan formulir \textit{feedback} dengan \textit{endpoint} model IndoBERT pada \textit{back-end};
+    \item penerapan mekanisme autentikasi dan otorisasi berdasarkan peran pengguna (siswa, guru pembina, operator dapur).
+    \end{enumerate}
+
+    \item Bulan IV -- Pengujian dan Penyempurnaan
+
+    Bulan keempat difokuskan pada pengujian dan penyempurnaan sistem. Kegiatan pada tahap ini meliputi:
+    \begin{enumerate}[a.]
+    \item pengujian fungsional menyeluruh menggunakan \textit{unit testing} dan \textit{integration testing};
+    \item pengujian alur end-to-end mencakup proses distribusi makanan, presensi, pengisian \textit{feedback}, dan analisis sentimen;
+    \item perbaikan \textit{bug} dan penyempurnaan performa berdasarkan hasil pengujian;
+    \item pelaksanaan uji penerimaan pengguna (\textit{User Acceptance Testing}, UAT) yang melibatkan sekelompok siswa, guru, dan operator untuk memverifikasi kesesuaian fitur dengan kebutuhan;
+    \item penyusunan dokumentasi sistem dan panduan penggunaan (\textit{user manual}) sebagai persiapan serah terima dan pelatihan pengguna.
+    \end{enumerate}
+
+    \vspace{0.5\baselineskip}
 \end{enumerate}
+
+Secara umum, alat dan teknologi yang direncanakan meliputi HTML/CSS/JavaScript untuk \textit{front-end}, \textit{framework} web modern seperti \textit{React} untuk antarmuka pengguna, pengembangan \textit{back-end} menggunakan \textit{framework} seperti \textit{Node.js-Express}, basis data relasional (MySQL), serta pustaka NLP \textit{HuggingFace Transformers} untuk integrasi model IndoBERT. Komunikasi antara \textit{front-end} dan \textit{back-end} diusulkan menggunakan API berbasis \textit{REST}. Sistem pengendali versi (Git) dan praktik manajemen proyek \textit{agile} juga digunakan agar implementasi berjalan terstruktur dan terpantau.
+
+\section{Rencana Evaluasi}
+
+Rencana evaluasi sistem mencakup pengujian fungsionalitas, performa, serta kualitas model AI yang digunakan. Evaluasi dilakukan secara bertahap untuk memastikan bahwa sistem memenuhi kebutuhan pengguna dan bekerja secara andal pada lingkungan operasional yang ditargetkan.
+
+Untuk pengujian sistem, digunakan metode \textit{black-box testing} untuk memastikan semua kebutuhan pengguna terpenuhi, yaitu setiap \textit{use case} dapat dijalankan tanpa kesalahan. Pengujian meliputi:
+\begin{enumerate}
+  \item verifikasi alur proses mulai dari penjadwalan menu, pengisian presensi siswa, hingga penyimpanan \textit{feedback};
+  \item validasi data, termasuk validasi input (\textit{input validation}) dan pengujian keamanan akses (otorisasi per peran dan pembatasan hak akses);
+  \item evaluasi waktu respons antarmuka untuk memastikan pengalaman pengguna tetap nyaman.
+\end{enumerate}
+
+Pengujian penerimaan pengguna (\textit{User Acceptance Testing}) dilakukan dengan melibatkan \textit{stakeholder} seperti guru pembina dan operator dapur. Pada tahap ini, pengguna diminta mencoba skenario penggunaan yang representatif lalu memberikan penilaian terhadap kemudahan penggunaan, kejelasan antarmuka, serta kecocokan fitur dengan kebutuhan operasional program MBG. Kriteria keberhasilan pada aspek ini antara lain:
+\begin{enumerate}
+  \item sistem dapat berjalan stabil tanpa \textit{bug} kritis;
+  \item fitur-fitur utama telah terimplementasi sesuai spesifikasi;
+  \item waktu respons antarmuka berada pada rentang yang dapat diterima pengguna.
+\end{enumerate}
+
+Untuk pengujian model AI, dilakukan evaluasi terhadap kinerja klasifikasi sentimen. Model IndoBERT diuji menggunakan \textit{dataset} uji yang memuat contoh umpan balik siswa dengan label sentimen manual (positif/negatif). Metode evaluasi yang digunakan meliputi pengukuran akurasi, presisi, \textit{recall}, dan F1-\textit{score}. Model dianggap berhasil apabila mencapai tingkat akurasi yang memadai (misalnya di atas 80\%) serta menunjukkan keseimbangan yang baik antara presisi dan \textit{recall}.
+
+Selain pengujian kuantitatif, dilakukan pula evaluasi kualitatif melalui penilaian manual oleh pengguna (misalnya guru pembina) untuk melihat apakah hasil analisis sentimen sejalan dengan persepsi kualitas makanan yang sebenarnya. Kriteria keberhasilan lainnya adalah integrasi model tidak menghambat performa aplikasi, yakni proses pemrosesan \textit{feedback} tetap berjalan dengan waktu tanggap yang wajar.
+
+Keberhasilan implementasi secara keseluruhan diukur dari tercapainya target program, seperti:
+\begin{enumerate}
+  \item laporan distribusi makanan yang terintegrasi dan terdokumentasi dengan baik;
+  \item kehadiran siswa dalam program MBG tercatat secara sistematis;
+  \item umpan balik siswa dan guru berhasil dikumpulkan dan diproses melalui modul analisis sentimen.
+\end{enumerate}
+
+Laporan hasil analisis sentimen mingguan atau bulanan dapat dibandingkan dengan survei manual sederhana sebagai sarana validasi tambahan. Apabila tujuan-tujuan tersebut tercapai tanpa kendala besar, proyek dapat dinyatakan berhasil.
+
+\section{Analisis Risiko}
+
+Mengidentifikasi dan mengelola risiko merupakan bagian penting dari perencanaan proyek. Pada pengembangan sistem MBG \textit{Monitoring} ini, beberapa kategori risiko utama yang diantisipasi meliputi risiko teknis, risiko data, dan risiko waktu.
+
+\subsection{Risiko Teknis}
+
+Risiko teknis berkaitan dengan kendala integrasi antara sistem dan model AI, serta kompleksitas teknis dalam implementasi. Contoh risiko yang mungkin muncul antara lain:
+\begin{enumerate}
+  \item kebutuhan sumber daya komputasi yang cukup besar untuk menjalankan model IndoBERT sehingga memengaruhi performa sistem;
+  \item kegagalan integrasi API antara modul \textit{back-end}, model AI, dan antarmuka pengguna;
+  \item \textit{bug} atau kesalahan pada modul inti yang menyebabkan alur sistem terhenti.
+\end{enumerate}
+
+Strategi mitigasi yang dapat dilakukan meliputi:
+\begin{enumerate}
+  \item menguji dan mengoptimalkan model IndoBERT secara terpisah sebelum diintegrasikan ke sistem utama;
+  \item menggunakan \textit{server} dengan spesifikasi yang memadai atau memanfaatkan layanan komputasi awan bila diperlukan;
+  \item menerapkan praktik pengembangan perangkat lunak yang baik, termasuk \textit{code review}, \textit{unit testing}, dan pengujian modul berkala;
+  \item memilih teknologi dan \textit{framework} yang sudah matang dan terdokumentasi dengan baik untuk mengurangi risiko teknis.
+\end{enumerate}
+
+\subsection{Risiko Data}
+
+Risiko data berkaitan dengan kualitas, keberagaman, dan keamanan data yang digunakan dalam sistem. Risiko yang mungkin terjadi antara lain:
+\begin{enumerate}
+  \item data \textit{feedback} siswa yang tidak beragam atau kurang representatif sehingga analisis sentimen menjadi kurang akurat;
+  \item kesalahan dalam pengelolaan hak akses sehingga menimbulkan kebocoran atau penyalahgunaan data;
+  \item penyimpanan dan transmisi data yang tidak aman.
+\end{enumerate}
+
+Mitigasi untuk risiko ini mencakup:
+\begin{enumerate}
+  \item melakukan \textit{fine-tuning} model dengan sampel umpan balik lokal bila diperlukan untuk menyesuaikan model dengan konteks data sebenarnya;
+  \item menerapkan kontrol akses berbasis peran (\textit{role-based access control}) untuk menjaga privasi data siswa;
+  \item menggunakan enkripsi koneksi (misalnya HTTPS) dan praktik keamanan standar dalam pengelolaan basis data dan API.
+\end{enumerate}
+
+\subsection{Risiko Waktu}
+
+Risiko waktu berkaitan dengan kemungkinan keterlambatan penyelesaian tugas dibandingkan rencana semula, terutama pada fase pengembangan AI dan integrasi fitur kompleks. Beberapa penyebab potensial antara lain:
+\begin{enumerate}
+  \item estimasi durasi pengembangan yang terlalu optimistis;
+  \item munculnya \textit{bug} atau hambatan teknis yang membutuhkan waktu perbaikan lebih lama;
+  \item adanya kebutuhan tambahan dari \textit{stakeholder} yang belum teridentifikasi pada awal proyek.
+\end{enumerate}
+
+Strategi mitigasi meliputi:
+\begin{enumerate}
+  \item menyusun jadwal dengan memperhitungkan waktu cadangan untuk penanganan risiko (\textit{buffer time});
+  \item menggunakan teknik manajemen proyek yang adaptif, misalnya penyusunan \textit{backlog} prioritas dan pengelompokan \textit{sprint} pengembangan;
+  \item melakukan pemantauan progres secara berkala (misalnya rapat mingguan) untuk mengidentifikasi deviasi jadwal sejak dini dan melakukan penyesuaian yang diperlukan;
+  \item menetapkan prioritas pada penyelesaian fitur inti sebelum fitur tambahan.
+\end{enumerate}
+
+Dengan mengidentifikasi risiko-risiko utama serta menetapkan strategi mitigasi sejak awal, diharapkan proyek pengembangan sistem MBG \textit{Monitoring} dapat berjalan lebih terkontrol dan memiliki peluang keberhasilan yang lebih tinggi. Pemantauan risiko akan dilakukan secara periodik agar respons terhadap perubahan kondisi dapat dilakukan secara cepat dan tepat.

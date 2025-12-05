@@ -5,34 +5,117 @@
 \label{chap:pendahuluan}
 % --- Latar Belakang ---
 \section{Latar Belakang}
-Latar Belakang menjelaskan dasar pemikiran, motivasi, kebutuhan, alasan, atau urgensi pemilihan masalah tugas akhir. Subbab ini berisi penjelasan ringkas tentang kondisi atau situasi yang ada saat ini terkait dengan topik yang dibahas. Tujuan utamanya adalah untuk memberikan informasi secukupnya kepada pembaca agar memahami topik yang akan dibahas. Dalam subbab ini, jelaskan hal-hal berikut ini:
-\begin{enumerate}
-\item	Kondisi atau situasi topik yang dibahas beserta permasalahannya, misalnya tentang pengelolaan informasi di puskesmas daerah pedesaan dan masalah yang dihadapi.
-\item	Berbagai solusi yang telah diterapkan atau solusi yang tersedia dan memungkinkan untuk diterapkan untuk menyelesaikan masalah tersebut.
-\end{enumerate}
+Program Makan Bergizi Gratis (MBG) merupakan salah satu inisiatif pemerintah yang bertujuan untuk meningkatkan gizi anak sekolah, mengurangi angka \textit{stunting}, serta mendukung perkembangan kesehatan dan prestasi belajar peserta didik. Dengan adanya program ini, diharapkan setiap siswa dapat memperoleh asupan makanan bergizi seimbang secara rutin.
+
+Namun, implementasi program MBG di lapangan masih menghadapi sejumlah permasalahan. Pertama, komposisi makanan yang diberikan seringkali tidak sesuai dengan standar gizi seimbang, baik dari segi variasi maupun kandungan nutrisinya. Kedua, terdapat kasus kualitas makanan yang buruk bahkan hingga menimbulkan keracunan pada peserta didik. Ketiga, mekanisme pengawasan distribusi dan kualitas makanan masih lemah karena umumnya dilakukan secara manual dan tidak terintegrasi.
+
+Upaya untuk mengatasi masalah tersebut sudah dilakukan, misalnya melalui pelibatan komite sekolah, pengawasan oleh dinas terkait, serta evaluasi periodik. Namun, sistem pemantauan yang ada masih belum mampu memberikan data \textit{real-time}, transparan, dan dapat diakses oleh berbagai pemangku kepentingan secara cepat. Kondisi ini mengakibatkan keterlambatan dalam deteksi permasalahan serta minimnya \textit{feedback} dari siswa maupun orang tua. 
+
+Jika sistem pemantauan tidak diperbaiki, efektivitas program MBG berisiko menurun, dan kepercayaan publik terhadap program berkurang. Maka dari itu, dengan memanfaatkan teknologi informasi, khususnya sistem pemantauan berbasis digital, program MBG dapat diawasi lebih efektif. Sistem tersebut dapat mencatat data distribusi, variasi menu, kualitas makanan, hingga umpan balik dari penerima manfaat. Dengan demikian, permasalahan terkait standar gizi, keamanan pangan, dan transparansi distribusi dapat diminimalkan, serta tujuan utama program MBG dapat lebih optimal tercapai.
 
 % --- Rumusan Masalah ---
 \section{Rumusan Masalah}
-Rumusan Masalah berisi masalah utama yang dibahas dalam tugas akhir. Rumusan masalah yang baik memiliki struktur sebagai berikut:
+Berdasarkan uraian latar belakang di atas, permasalahan utama yang dapat dirumuskan adalah sebagai berikut:
 \begin{enumerate}
-\item	Pokok persoalan dari kondisi atau situasi yang ada saat ini. Dengan kata lain, jelaskan kelemahan atau kekurangan dari kondisi, situasi, atau solusi yang dijelaskan pada latar belakang. Ini merupakan pokok rumusan masalah.
-\item	Elaborasi lebih lanjut urgensi penyelesaian masalah tersebut (mengapa penting untuk diselesaikan dan akibat yang dapat terjadi jika tidak diselesaikan).
-\item	Usulan singkat terkait dengan solusi yang ditawarkan untuk menyelesaikan persoalan.
-Penting untuk diperhatikan bahwa persoalan yang dideskripsikan pada subbab ini akan dipertanggungjawabkan di bab Evaluasi (apakah terselesaikan atau tidak).
+\item	Bagaimana merancang sistem pemantauan yang dapat memastikan distribusi dan konsumsi makanan bergizi gratis secara \textit{real-time} dan transparan?
+\item	Bagaimana mengatasi keterbatasan mekanisme pengawasan manual dalam mengumpulkan dan menganalisis \textit{feedback} dari pengguna (siswa, guru, dan orang tua) terhadap program MBG?
+\item	Bagaimana memanfaatkan teknologi kecerdasan buatan untuk menganalisis umpan balik pengguna secara otomatis dan akurat?
 \end{enumerate}
 
 % --- Tujuan ---
 \section{Tujuan}
-Tuliskan tujuan utama dan/atau tujuan detail yang akan dicapai dalam pelaksanaan tugas akhir. Fokuskan pada hasil akhir yang ingin diperoleh setelah tugas akhir diselesaikan, terkait dengan penyelesaian persoalan pada rumusan masalah. Penting untuk diperhatikan bahwa tujuan yang dideskripsikan pada subbab ini akan dipertanggungjawabkan di akhir pelaksanaan tugas akhir apakah tercapai atau tidak. Tuliskan kriteria keberhasilan tugas akhir ini.
+Tujuan dari pelaksanaan tugas akhir ini adalah untuk merancang dan mengembangkan sistem pemantauan MBG yang mampu melakukan pemantauan distribusi dan konsumsi makanan serta analisis kepuasan pengguna berbasis kecerdasan buatan secara terintegrasi. Secara khusus, tujuan yang ingin dicapai meliputi:
+\begin{enumerate}
+    \item Merancang sistem informasi terintegrasi yang mendokumentasikan data distribusi makanan, presensi konsumsi siswa, serta umpan balik dari pihak sekolah secara efisien dan terstruktur.
+    \item Mengembangkan fitur pemantauan \textit{real-time} yang memungkinkan operator, guru, dan pihak sekolah melakukan pengawasan distribusi dan konsumsi makanan secara langsung.
+    \item Menerapkan algoritma analisis sentimen (\textit{sentiment analysis}) untuk menganalisis \textit{feedback} dan keluhan dari siswa untuk mengetahui tingkat kepuasan pengguna terhadap program makan bergizi.
+    \item Mengembangkan antarmuka sistem yang intuitif dan mudah digunakan oleh operator sekolah dan pihak terkait untuk melakukan pemantauan dan pengambilan keputusan berbasis data.
+    \item Menguji kinerja sistem melalui pengujian fungsionalitas, akurasi algoritma \textit{sentiment analysis}, dan tingkat kepuasan pengguna terhadap fitur-fitur yang dihasilkan.
+\end{enumerate}
 
 % --- Batasan Masalah ---
 \section{Batasan Masalah}
-Tuliskan batasan-batasan yang diambil dalam pelaksanaan tugas akhir. Batasan ini dapat dihindari (bersifat opsional, tidak perlu ada) jika topik atau judul tugas akhir dibuat cukup spesifik.
+Agar pembahasan dalam tugas akhir ini tetap terfokus dan dapat diselesaikan sesuai dengan waktu dan sumber daya yang tersedia, penelitian ini dibatasi pada ruang lingkup berikut:
+\begin{enumerate}
+    \item Lingkup Penelitian
+    
+    Penelitian difokuskan pada desain dan prototipe sistem pemantauan untuk program MBG di tingkat Sekolah Menengah Atas (SMA) Bandung, bukan implementasi operasional penuh di seluruh sekolah.
+
+    \item Subjek Penelitian
+
+    Data \textit{feedback} dan kepuasan pengguna dikumpulkan dari siswa SMA, guru, dan orang tua di satu atau beberapa SMA sebagai studi kasus.
+
+    \item Jangka Waktu
+
+    Implementasi sistem dilakukan dalam skala prototipe dengan menggunakan data simulasi atau data terbatas sebagai \textit{proof of concept}.
+
+    \item Aspek Kesehatan
+
+    Penelitian tidak mencakup analisis medis atau diagnosis kesehatan individu, melainkan terbatas pada analisis data kepuasan konsumen dan pola keluhan terhadap program.
+
+    \item Keamanan Data
+
+    Data siswa yang digunakan dijaga kerahasiaannya dan hanya digunakan untuk kepentingan akademik serta perbaikan program.
+\end{enumerate}
 
 % --- Metodologi Pengerjaan TA ---
 \section{Metodologi}
-Tuliskan semua tahapan yang akan dilalui selama pelaksanaan tugas akhir. Tahapan ini spesifik untuk menyelesaikan persoalan tugas akhir. Khusus untuk penyusunan proposal ini, jelaskan secara detail:
+Metodologi yang digunakan dalam penelitian ini merupakan gabungan antara pendekatan kualitatif dan pendekatan kuantitatif (\textit{mixed-methods approach}). Pemilihan pendekatan ini dilakukan untuk memperoleh pemahaman yang menyeluruh mengenai kebutuhan pengguna dan proses operasional di lapangan, sekaligus menghasilkan data terukur yang dapat mendukung perancangan dan pengembangan sistem pemantauan MBG.
+
+Selain itu, dalam tahap awal dilakukan studi literatur terarah untuk menelaah teori, konsep, dan penelitian terdahulu yang relevan dengan batas terbitan dalam 5 tahun terakhir. Hasil studi literatur digunakan untuk memperkuat dasar teoritis serta menyusun kerangka konseptual sistem.
+\subsection{Pendekatan Kualitatif}
+Pendekatan kualitatif digunakan untuk menggali informasi mendalam terkait proses dan tantangan nyata yang terjadi dalam pelaksanaan program MBG. Proses ini dilakukan melalui wawancara langsung dan observasi terhadap pihak-pihak yang berperan dalam penyediaan dan distribusi makanan, khususnya bagian dapur SPPG (Satuan Penyelenggara Program Gizi).
+
+Data yang diperoleh dari pendekatan kualitatif akan memberikan pemahaman mengenai:
 \begin{enumerate}
-\item	Tahapan investigasi pengumpulan fakta di latar belakang untuk merumuskan masalah.
-\item	Langkah-langkah pencarian, pengelompokan, dan penapisan literatur atau sumber informasi untuk mengumpulkan informasi yang relevan tentang topik yang diangkat, termasuk teori (konsep atau teori apa saja yang perlu dicari), hal-hal yang telah dicapai oleh orang lain (cara mencari dan kata kuncinya), dan berbagai informasi pendukung, untuk mencari solusi terhadap masalah yang dibahas. Gunakan metodologi yang tepat dalam menggali informasi dan dokumentasikan prosesnya (termasuk rekaman wawancara atau survei) di dalam Lampiran, termasuk tautan ke video atau foto. Hasil penggalian informasi ini akan dijelaskan secara sistematis di Bab II Studi Literatur.
+    \item Alur distribusi makanan dari dapur hingga ke siswa.
+    \item Kendala yang sering muncul dalam proses penyediaan dan pendistribusian makanan.
+    \item Kriteria kualitas makanan dan standar penyajian yang diterapkan.
+    \item Mekanisme pencatatan dan pelaporan yang digunakan selama ini.
+\end{enumerate}
+Informasi tersebut selanjutnya digunakan untuk menyusun kebutuhan sistem (\textit{requirement analysis}), khususnya dalam perancangan fitur-fitur yang relevan dan sesuai dengan kondisi operasional nyata di lapangan.
+
+\subsection{Pendekatan Kuantitatif}
+Pendekatan kuantitatif digunakan untuk memperoleh data yang bersifat numerik dan dapat dianalisis secara statistik guna memahami kebutuhan, persepsi, dan tingkat kepuasan pengguna sistem MBG. Responden utama meliputi siswa SMA/SMK, guru, dan orang tua sebagai penerima manfaat langsung dari program makan bergizi.
+
+Metode pengumpulan data dilakukan dengan cara penyebaran kuesioner terstruktur yang mencakup beberapa aspek berikut:
+\begin{enumerate}
+    \item Tingkat kepuasan terhadap variasi dan kualitas makanan.
+    \item Persepsi terhadap ketepatan waktu dan kebersihan distribusi.
+    \item Kebutuhan terhadap sistem digital untuk pelaporan keluhan atau umpan balik.
+    \item Frekuensi keluhan yang muncul dan kategori keluhan yang paling dominan.
+\end{enumerate}
+Data yang diperoleh dari kuesioner akan dianalisis menggunakan pendekatan deskriptif kuantitatif, misalnya dengan menghitung persentase, rata-rata, dan kecenderungan umum dari jawaban responden. Hasil analisis ini menjadi dasar dalam perancangan antarmuka pengguna (\textit{user interface}) dan pengembangan fitur-fitur fungsional lainnya.
+
+\subsection{Tahapan Penelitian}
+Secara umum, tahapan penelitian yang akan dilaksanakan dalam tugas akhir ini meliputi langkah-langkah sebagai berikut:
+\begin{enumerate}
+    \item Studi Literatur
+    
+    Melakukan kajian pustaka terhadap teori dan penelitian terdahulu yang berkaitan dengan sistem pemantauan, manajemen gizi, dan penerapan analisis sentimen serta \textit{machine learning}.
+    \item Pengumpulan Data Lapangan
+    \begin{enumerate}
+        \item Melakukan wawancara langsung dengan pihak dapur SPPG dan operator sekolah (pendekatan kualitatif).
+        \item Menyebarkan kuesioner kepada siswa SMA/SMK, guru, dan orang tua (pendekatan kuantitatif).
+    \end{enumerate} 
+
+    \item Analisis Kebutuhan Sistem
+
+    Mengidentifikasi kebutuhan fungsional dan non-fungsional berdasarkan hasil pengumpulan data dan hasil analisis literatur.
+    
+    \item Perancangan Sistem (\textit{System Design})
+    
+    Membuat rancangan arsitektur sistem, desain basis data, alur data, dan antarmuka pengguna (UI/UX) yang sesuai untuk pengguna SMA/SMK.
+
+    \item Implementasi dan Integrasi AI
+
+    Mengembangkan prototipe sistem pemantauan MBG dan mengintegrasikan model \textit{sentiment analysis} untuk analisis \textit{feedback} pengguna SMA/SMK.
+
+    \item Pengujian dan Evaluasi Sistem
+
+    Melakukan pengujian fungsional, pengujian akurasi algoritma \textit{sentiment analysis}, dan evaluasi kepuasan pengguna terhadap sistem.
+
+    \item Analisis Hasil dan Penyusunan Laporan
+
+    Menyusun hasil analisis dari seluruh proses penelitian, membandingkan hasil implementasi dengan tujuan awal, serta menarik kesimpulan dan saran pengembangan selanjutnya.
 \end{enumerate}

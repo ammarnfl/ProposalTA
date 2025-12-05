@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.11.19)  5 DEC 2025 10:02
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.11.19)  5 DEC 2025 10:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1350,23 +1350,11 @@ Bab I.
 [1
 
 
-]
-Overfull \hbox (6.58292pt too wide) in paragraph at lines 37--38
-[]\TU/TimesNewRoman(0)/m/n/12 Langkah-langkah pencarian, pengelompokan, dan pen
-apisan literatur atau sum-
- []
-
-
-Overfull \hbox (0.90164pt too wide) in paragraph at lines 37--38
-\TU/TimesNewRoman(0)/m/n/12 ber informasi untuk mengumpulkan informasi yang rel
-evan tentang topik yang
- []
-
-) (Bab II - Studi-Literatur.tex [2]
+] [2] [3] [4]) (Bab II - Studi-Literatur.tex [5]
 Bab II.
 File: image/gambar1.png Graphic file (type bmp)
 <image/gambar1.png>
-[3
+[6
 
 ]
 Overfull \hbox (5.19266pt too wide) in paragraph at lines 30--31
@@ -1374,15 +1362,15 @@ Overfull \hbox (5.19266pt too wide) in paragraph at lines 30--31
 si sebaiknya digambar ulang,
  []
 
-[4] (table/tabel1.tex)
-ignored error: Infinite glue shrinkage found in box being split [5]
-ignored error: Infinite glue shrinkage found in box being split [6]
+[7] (table/tabel1.tex)
+ignored error: Infinite glue shrinkage found in box being split [8]
+ignored error: Infinite glue shrinkage found in box being split [9]
 Overfull \hbox (13.9993pt too wide) in paragraph at lines 161--161
 |[]\TU/TimesNewRoman(0)/b/n/12 Beberapa Contoh Penulisan Rumus atau Persamaan M
 atematika Meng-
  []
 
-[7]
+[10]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 206.
 
@@ -1392,35 +1380,35 @@ File: lstlang1.sty 2025/10/06 1.11 listings language file
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
 (Font)              Font shape `TU/lmtt/b/n' tried instead on input line 215.
 
-[8]
+[11]
 
-LaTeX Warning: Citation 'BPBI' on page 9 undefined on input line 227.
+LaTeX Warning: Citation 'BPBI' on page 12 undefined on input line 227.
 
 
 Overfull \hbox (19.22398pt too wide) in paragraph at lines 232--238
  [][] 
  []
 
-[9]) (Bab III - Analisis-Masalah.tex [10] [11]
+[12]) (Bab III - Analisis-Masalah.tex [13] [14]
 Bab III.
 
-LaTeX Warning: Citation 'laudon2020' on page 12 undefined on input line 10.
+LaTeX Warning: Citation 'laudon2020' on page 15 undefined on input line 10.
 
 
-LaTeX Warning: Citation '' on page 12 undefined on input line 10.
+LaTeX Warning: Citation '' on page 15 undefined on input line 10.
 
 
-LaTeX Warning: Citation 'pressman2019' on page 12 undefined on input line 10.
+LaTeX Warning: Citation 'pressman2019' on page 15 undefined on input line 10.
 
-[12
+[15
 
-]) (Bab IV - Desain-Konsep-Solusi.tex [13] [14]
+]) (Bab IV - Desain-Konsep-Solusi.tex [16] [17]
 Bab IV.
-) (Bab V - Rencana-Selanjutnya.tex [15
+) (Bab V - Rencana-Selanjutnya.tex [18
 
 ]
 Bab V.
-) [16
+) [19
 
 ]
 
@@ -1436,7 +1424,7 @@ L3 programming layer <2025-10-24>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `ProposalTA.out' has not changed.
-(rerunfilecheck)             Checksum: A9C3A0D9ADFE6C97340C7E98089EC31D;6732.
+(rerunfilecheck)             Checksum: 1D65D491B688B0C94DD08277FA80D9B7;7232.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                ProposalTA
@@ -1447,12 +1435,12 @@ Package logreq Info: Writing requests to 'ProposalTA.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29913 strings out of 402987
- 584144 string characters out of 5448730
- 1966760 words of memory out of 5000000
- 58296 multiletter control sequences out of 15000+600000
+ 29914 strings out of 402987
+ 584157 string characters out of 5448730
+ 1967297 words of memory out of 5000000
+ 58297 multiletter control sequences out of 15000+600000
  633110 words of font info for 87 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  73i,14n,93p,1201b,1798s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on ProposalTA.pdf (23 pages).
+Output written on ProposalTA.pdf (26 pages).

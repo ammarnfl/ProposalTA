@@ -12,29 +12,23 @@
 \contentsline {subsection}{\numberline {I.5.2}Pendekatan Kuantitatif}{4}{subsection.1.5.2}%
 \contentsline {subsection}{\numberline {I.5.3}Tahapan Penelitian}{5}{subsection.1.5.3}%
 \contentsline {chapter}{\numberline {II}STUDI LITERATUR}{6}{chapter.2}%
-\contentsline {section}{\numberline {II.1}Penulisan Gambar, Tabel, Rumus, dan Kode}{6}{section.2.1}%
-\contentsline {subsection}{\numberline {II.1.1}Gambar}{6}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {II.1.2}Tabel}{7}{subsection.2.1.2}%
-\contentsline {subsubsection}{\numberline {II.1.2.1}Tabel yang Muat dalam Satu Halaman}{7}{subsubsection.2.1.2.1}%
-\contentsline {subsubsection}{\numberline {II.1.2.2}Mengimpor Tabel dari Berkas Eksternal}{8}{subsubsection.2.1.2.2}%
-\contentsline {subsubsection}{\numberline {II.1.2.3}Tabel yang Sangat Panjang}{8}{subsubsection.2.1.2.3}%
-\contentsline {subsubsection}{\numberline {II.1.2.4}Beberapa Contoh Penulisan Rumus atau Persamaan Matematika Menggunakan LaTeX Termasuk Penomorannya}{10}{subsubsection.2.1.2.4}%
-\contentsline {subsection}{\numberline {II.1.3}Algoritma, Pseudocode, atau Kode}{11}{subsection.2.1.3}%
-\contentsline {section}{\numberline {II.2}Beberapa Kesalahan Penulisan yang Sering Terjadi}{12}{section.2.2}%
-\contentsline {subsection}{\numberline {II.2.1}Penggunaan Kata "di mana" atau "dimana"}{12}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {II.2.2}Penggunaan Kata "sedangkan" dan "sehingga"}{12}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {II.2.3}Penggunaan Istilah yang Tidak Baku}{13}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {II.2.4}Pemisah Desimal dan Ribuan}{13}{subsection.2.2.4}%
-\contentsline {subsection}{\numberline {II.2.5}Daftar atau \textit {List}}{13}{subsection.2.2.5}%
-\contentsline {subsection}{\numberline {II.2.6}Penggunaan Kata "masing-masing" dan "setiap"}{13}{subsection.2.2.6}%
-\contentsline {chapter}{\numberline {III}ANALISIS MASALAH}{15}{chapter.3}%
-\contentsline {section}{\numberline {III.1}Analisis Kondisi Saat Ini}{15}{section.3.1}%
-\contentsline {section}{\numberline {III.2}Analisis Kebutuhan}{15}{section.3.2}%
-\contentsline {subsection}{\numberline {III.2.1}Identifikasi Masalah Pengguna}{15}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {III.2.2}Kebutuhan Fungsional}{16}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {III.2.3}Kebutuhan Nonfungsional}{16}{subsection.3.2.3}%
-\contentsline {section}{\numberline {III.3}Analisis Pemilihan Solusi}{16}{section.3.3}%
-\contentsline {subsection}{\numberline {III.3.1}Alternatif Solusi}{16}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {III.3.2}Analisis Penentuan Solusi}{16}{subsection.3.3.2}%
-\contentsline {chapter}{\numberline {IV}DESAIN KONSEP SOLUSI}{18}{chapter.4}%
-\contentsline {chapter}{\numberline {V}RENCANA SELANJUTNYA}{19}{chapter.5}%
+\contentsline {section}{\numberline {II.1}Program Makan Bergizi (MBG)}{6}{section.2.1}%
+\contentsline {section}{\numberline {II.2}Sistem Informasi \textit {Monitoring}}{7}{section.2.2}%
+\contentsline {section}{\numberline {II.3}Analisis Sentimen dan \textit {Feedback Management}}{7}{section.2.3}%
+\contentsline {section}{\numberline {II.4}Penelitian Terdahulu yang Relevan}{8}{section.2.4}%
+\contentsline {section}{\numberline {II.5}Kerangka Konseptual}{8}{section.2.5}%
+\contentsline {section}{\numberline {II.6}Kerangka Teori}{9}{section.2.6}%
+\contentsline {subsection}{\numberline {II.6.1}Teori Sistem Informasi}{9}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {II.6.2}Teori Kepuasan Pengguna (\textit {User Satisfaction Theory})}{9}{subsection.2.6.2}%
+\contentsline {section}{\numberline {II.7}Kesimpulan Studi Literatur}{9}{section.2.7}%
+\contentsline {chapter}{\numberline {III}ANALISIS MASALAH}{10}{chapter.3}%
+\contentsline {section}{\numberline {III.1}Analisis Kondisi Saat Ini}{10}{section.3.1}%
+\contentsline {section}{\numberline {III.2}Analisis Kebutuhan}{10}{section.3.2}%
+\contentsline {subsection}{\numberline {III.2.1}Identifikasi Masalah Pengguna}{10}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {III.2.2}Kebutuhan Fungsional}{11}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {III.2.3}Kebutuhan Nonfungsional}{11}{subsection.3.2.3}%
+\contentsline {section}{\numberline {III.3}Analisis Pemilihan Solusi}{11}{section.3.3}%
+\contentsline {subsection}{\numberline {III.3.1}Alternatif Solusi}{11}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {III.3.2}Analisis Penentuan Solusi}{11}{subsection.3.3.2}%
+\contentsline {chapter}{\numberline {IV}DESAIN KONSEP SOLUSI}{13}{chapter.4}%
+\contentsline {chapter}{\numberline {V}RENCANA SELANJUTNYA}{14}{chapter.5}%
